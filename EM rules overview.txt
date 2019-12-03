@@ -1,0 +1,26 @@
+Saucer
+  rebound rubbers next to saucer changes lit value
+  ball in saucer collects lit value
+    1 5,000 pts
+    2 5,000 pts & double bonus
+    3 5,000 pts
+    4 5,000 pts & lights captive ball
+    5 10,000 pts
+
+Captive ball
+  Hit captive ball up lane to advance bonus
+  Hit captive ball target to score points
+      captive ball target worth 30,000 when lit from saucer
+
+HOT TIP drop targets
+    completing drop targets advances horesshoes
+
+Horeshoes
+    1 - lights spinner
+    2 - lights side eject for extra ball
+        advances drop target values to 1,000
+    3 - advances drop target values to 10,000
+        lights alternating special in the outlane
+    Feature adjustment - 
+      liberal one collection of HOT TIP advances 1 and 2, resets, and then 3
+      Conservative advances 1, resets, 2, resets, 3
