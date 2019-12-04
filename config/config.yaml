@@ -5,32 +5,7 @@
 #  driverboards: pdb
 #
 
-switches:
- s_left_flipper:
-   number:
-   tags: left_flipper
- s_right_flipper:
-   number:
-   tags: right_flipper
- s_outhole:
-   number:
-   tags: outhole
- s_right_inlane:
-   number:
- s_left_inlane:
-   number:
- s_right_outlane:
-   number:
- s_left_outlane:
-   number:
- s_left_slingshot:
-   number:
- s_right_slingshot:
-   number:
- s_captive_ball_lane:
-   number:
- s_captive_ball_target:
-   number:
+
 
 coils:
  c_flipper_left_main:

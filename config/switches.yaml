@@ -1,0 +1,90 @@
+switches:
+  s_left_flipper:
+    number:
+    tags: left_flipper
+  s_right_flipper:
+    number:
+    tags: right_flipper
+  s_outhole: #09
+    number:
+    tags: outhole
+  s_right_inlane: #12
+    number:
+  s_left_inlane: #34
+    number:
+  s_right_outlane: #11
+    number:
+  s_left_outlane: #33
+    number:
+  s_left_slingshot: #35
+    number:
+  s_right_slingshot: #13
+    number:
+  s_captive_ball_rollover: #15
+    number:
+  s_captive_ball_target: #16
+    number:
+  s_drop_l_1: #27
+    number:
+  s_drop_l_2: #26
+    number:
+  s_drop_l_3: #25
+    number:
+  s_drop_r_1: #19
+    number:
+  s_drop_r_2: #18
+    number:
+  s_drop_r_3: #17
+    number:
+  s_upper_rebound_left: #23
+    number:
+  s_upper_rebound_right: #21
+    number:
+  s_lower_rebound_right: #14
+    number:
+  s_advance_bonus_standup: #20
+    number:
+  s_top_saucer: #22
+    number:
+  s_left_top_rollover: #24
+    number:
+  s_middle_left_rebound: #28
+    number:
+  s_left_saucer: #29
+    number:
+  s_spinner: #30
+    number:
+  s_pop: #31
+    number:
+  s_lower_rebound_left: #32
+    number:
+  s_drop_six_bank: #37
+    number:
+
+  
+
+#reserved space for coin door
+switches:
+  s_credit_button: #3
+    number:
+  s_right_coin: #4
+    number:
+  s_center_coin: #5
+    number:
+  s_left_coin: #6
+    number:  
+
+
+#reserved space for tilt and cheat mechanisms
+switches:
+  s_plumb_bomb_tilt: #1
+    number:
+  s_ball_roll_tilt: #2
+    number:
+  s_slam_tilt: #7
+    number:
+  s_playfield_tilt: #10
+    number:
+
+#8 not used
+#36 not used
