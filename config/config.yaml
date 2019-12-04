@@ -3,6 +3,7 @@
 #hardware:
 #  platform: p3_roc
 #  driverboards: pdb
+#
 
 switches:
  s_left_flipper:
