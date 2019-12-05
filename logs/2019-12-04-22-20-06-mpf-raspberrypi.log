@@ -1,0 +1,77 @@
+2019-12-04 22:20:06,479 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-12-04 22:20:06,479 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'mpfconfigfile': '/usr/local/lib/python3.7/dist-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-12-04-22-20-06-mpf-raspberrypi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-12-04 22:20:06,479 : INFO : Machine : MPF path: /usr/local/lib/python3.7/dist-packages/mpf
+2019-12-04 22:20:06,479 : INFO : Machine : Machine path: /home/pi/HotTipEM
+2019-12-04 22:20:06,479 : INFO : Machine : Platform: linux
+2019-12-04 22:20:06,479 : INFO : Machine : Python executable location: /usr/bin/python3
+2019-12-04 22:20:06,480 : INFO : Machine : Python version: 3.7.3 (32-bit)
+2019-12-04 22:20:06,480 : INFO : Machine : Machine config file #1: config.yaml
+2019-12-04 22:20:06,481 : INFO : ConfigProcessor : Loading config from cache: /tmp/97a0759ee607251f80db56c9576ff30a.mpf_cache
+2019-12-04 22:20:06,484 : INFO : Machine : Initialise MPF.
+2019-12-04 22:20:06,617 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,677 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,677 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,677 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.3', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,679 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-4.19.75-v7l+-armv7l-with-debian-10.2', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,680 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,680 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '4.19.75-v7l+', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,680 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1270 SMP Tue Sep 24 18:51:41 BST 2019', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,680 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'armv7l', 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,680 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-12-04 22:20:06,750 : INFO : ConfigProcessor : Loading config from cache: /tmp/7559345efe69122f4d6fb5f65214b482.mpf_cache
+2019-12-04 22:20:06,760 : INFO : ConfigProcessor : Loading config from cache: /tmp/0488c24d6cb11f71168a087186f8afaf.mpf_cache
+2019-12-04 22:20:06,807 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-12-04 22:20:06,808 : INFO : SwitchController : Found active switch: (1002, <Platform.SmartVirtual>)
+2019-12-04 22:20:06,826 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-12-04 22:20:06,841 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-12-04 22:20:06,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_captive_ball_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_captive_ball_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_l_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_l_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_l_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_r_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_r_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_r_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_rebound_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_rebound_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_rebound_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_advance_bonus_standup'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_saucer'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_top_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_saucer'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_rebound_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_six_bank'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_credit_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_center_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_coin'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plumb_bomb_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ball_roll_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slam_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,849 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_playfield_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,850 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2019-12-04 22:20:06,850 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-12-04 22:20:06,852 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-12-04 22:20:06,852 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-12-04 22:20:06,853 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-12-04 22:20:06,853 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-12-04 22:20:06,854 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-12-04 22:20:06,855 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-12-04 22:20:06,856 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-12-04 22:20:06,856 : INFO : Mode.attract : Started. Priority: 10
+2019-12-04 22:20:06,857 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-12-04 22:20:06,857 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-12-04 22:20:06,858 : INFO : Machine : Starting the main run loop.
+2019-12-04 22:20:08,709 : INFO : root : MPF run loop ended.
