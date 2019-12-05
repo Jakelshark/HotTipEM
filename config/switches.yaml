@@ -1,3 +1,5 @@
+#config_version=5
+
 switches:
   s_left_flipper:
     number:
@@ -60,23 +62,17 @@ switches:
     number:
   s_drop_six_bank: #37
     number:
-
-  
-
-#reserved space for coin door
-switches:
+#coin door
   s_credit_button: #3
     number:
+    tags: start
   s_right_coin: #4
     number:
   s_center_coin: #5
     number:
   s_left_coin: #6
     number:  
-
-
-#reserved space for tilt and cheat mechanisms
-switches:
+#anti-cheat
   s_plumb_bomb_tilt: #1
     number:
   s_ball_roll_tilt: #2

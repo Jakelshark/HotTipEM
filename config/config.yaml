@@ -1,11 +1,8 @@
 #config_version=5
 
-#hardware:
-#  platform: p3_roc
-#  driverboards: pdb
-#
-
-
+config:
+  - switches.yaml
+  - keyboard.yaml
 
 coils:
  c_flipper_left_main:
@@ -41,12 +38,6 @@ flippers: #flippers activated after boot for testing
    activation_switch: s_right_flipper
    enable_events: machine_reset_phase_3 #allow flippers after boot for testing
 
-keyboard:
-  z:
-    switch: s_left_flipper
-  x:
-    switch: s_right_flipper
-
 ball_devices:
   bd_trough:
     ball_switches: s_outhole
@@ -57,3 +48,27 @@ ball_devices:
 
 virtual_platform_start_active_switches:
   s_outhole #ball starts in outhole when loading virtual instance of game
+
+displays:
+  window:
+    width: 800
+    height: 600
+
+slides:
+  welcome_slide:
+    widgets:
+      - type: text
+        text: PINBALL!
+        font_size: 50
+        color: red
+      - type: rectangle
+        width: 240
+        height: 60
+  attract_started:
+    widgets:
+      - text: ATTRACT MODE
+        type: text
+
+slide_player:
+  init_done: welcome_slide
+  mode_attract_started: attract_started
