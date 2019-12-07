@@ -1,0 +1,61 @@
+#config_version=5
+
+coils:
+  c_flipper_left_main:
+    number: 
+    default_pulse_ms: 20
+  c_flipper_left_hold:
+    number:
+    allow_enable: true
+  c_flipper_right_main:
+    number:
+    default_pulse_ms: 20
+  c_flipper_right_hold:
+    number:
+    allow_enable: true
+  c_outhole_kicker:
+    number:
+    default_pulse_ms: 20
+  c_left_slingshot:
+    number:
+    default_pulse_ms: 20
+  c_right_slingshot:
+    number:
+    default_pulse_ms: 20
+  c_left_saucer:
+    number:
+    default_pulse_ms: 20
+  c_pop_bumper:
+    number:
+    default_pulse_ms: 20
+  c_drop_left_reset:
+    number:
+    default_pulse_ms: 20
+  c_drop_right_reset:
+    number:
+    default_pulse_ms: 20
+  c_top_saucer:
+    number:
+    default_pulse_ms: 20
+
+#low priority
+  c_knocker:
+    number:
+    default_pulse_ms: 20
+  c_chime_low:
+    number:
+    default_pulse_ms: 20
+  c_chime_medium:
+    number:
+    default_pulse_ms: 20
+  c_chime_large:
+    number:
+    default_pulse_ms: 20
+
+
+#future coil ideas
+#control gates on upper area
+#auto plunge coil
+#ball trough coils
+#disapearing post for captive ball multiball idea
+#control gates to reload captive ball

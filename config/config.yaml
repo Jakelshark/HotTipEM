@@ -3,23 +3,7 @@
 config:
   - switches.yaml
   - keyboard.yaml
-
-coils:
- c_flipper_left_main:
-   number: 
-   default_pulse_ms: 20
- c_flipper_left_hold:
-   number:
-   allow_enable: true
- c_flipper_right_main:
-   number:
-   default_pulse_ms: 20
- c_flipper_right_hold:
-   number:
-   allow_enable: true
- c_outhole_kicker:
-   number:
-   default_pulse_ms: 20
+  - coils.yaml
 
 playfields:
   playfield:
@@ -44,7 +28,25 @@ ball_devices:
     eject_coil: c_outhole_kicker
     tags: trough, home, drain
     debug: yes
+  bd_left_saucer:
+    ball_switches: s_left_saucer
+    eject_coil: c_left_saucer
+    eject_timeouts: 500ms
+  bd_top_saucer:
+    ball_switches: s_top_saucer
+    eject_coil: c_top_saucer
+    eject_timeouts: 500ms
 
+autofire_coils: #possibly needs to be configured on a mode level basis, or need to figure out how to disable in a mode like super-plunge
+  left_slingshot:
+    coil: c_left_slingshot
+    switch: s_left_slingshot
+  right_slingshot:
+    coil: c_right_slingshot
+    switch: s_right_slingshot
+  pop_bumper:
+    coil: c_pop_bumper
+    switch: s_pop_bumper
 
 virtual_platform_start_active_switches:
   s_outhole #ball starts in outhole when loading virtual instance of game

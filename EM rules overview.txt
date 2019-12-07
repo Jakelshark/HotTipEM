@@ -37,7 +37,7 @@ Super Modes
  
  3) Super drops = drop targets and pop high in value. Bank completions add multiplier. Captive ball hits increase base value
  
- 4) Super skill shot = kill the flippers to drain the ball. How many times can the player succesfuly plunge into the saucer? Extra points for not hitting top rebound switches. Mode ends when any other switches are hit. Ball drains. Ball is served back to player to continue play. Extra bonus in left saucer on countdown.
+ 4) Super plunge = kill the flippers to drain the ball. How many times can the player succesfuly plunge into the saucer? Extra points for not hitting top rebound switches. Mode ends when any other switches are hit. Ball drains. Ball is served back to player to continue play. Extra bonus in left saucer on countdown.
  
  5) Super slings (?) = insane points on slingshots of death. Short ball save based on number of sling hits per second to encourage hitting the slings.
  
@@ -58,6 +58,15 @@ Normal play
 - Left inlane temporarily increases captive ball value
 - 6 bank Drop Target bank completions award bonus X
 - Captive ball hits activates mystery award and/or qualifies super modes
+- outlane lights are free kickbacks at start of game. How to relite
+
+
+other
+- bonus ladder to show points being earned in a mode?
+    - use binary ladder
+        - 1k, 2k, 4k, 8k, 16k, 32k, 64k, 128k, 256k, 512k = max 1024k bonus
+- horeshoes to show current bonus x of running mode?
+
 
 Myster awards - left saucer
 - Absolutetly nothing

@@ -1,0 +1,74 @@
+2019-12-06 22:13:18,380 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-12-06 22:13:18,380 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'mpfconfigfile': '/usr/local/lib/python3.7/dist-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-12-06-22-13-18-mpf-raspberrypi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-12-06 22:13:18,380 : INFO : Machine : MPF path: /usr/local/lib/python3.7/dist-packages/mpf
+2019-12-06 22:13:18,381 : INFO : Machine : Machine path: /home/pi/HotTipEM
+2019-12-06 22:13:18,381 : INFO : Machine : Platform: linux
+2019-12-06 22:13:18,381 : INFO : Machine : Python executable location: /usr/bin/python3
+2019-12-06 22:13:18,381 : INFO : Machine : Python version: 3.7.3 (32-bit)
+2019-12-06 22:13:18,381 : INFO : Machine : Machine config file #1: config.yaml
+2019-12-06 22:13:18,385 : WARNING : ConfigProcessor : Config file in cache changed: /home/pi/HotTipEM/config/config.yaml
+2019-12-06 22:13:18,385 : INFO : ConfigProcessor : Loading config from file /usr/local/lib/python3.7/dist-packages/mpf/mpfconfig.yaml.
+2019-12-06 22:13:18,618 : INFO : ConfigProcessor : Loading config: /usr/local/lib/python3.7/dist-packages/mpf/mpfconfig.yaml
+2019-12-06 22:13:18,645 : INFO : ConfigProcessor : Loading config from file /home/pi/HotTipEM/config/config.yaml.
+2019-12-06 22:13:18,684 : INFO : ConfigProcessor : Loading config: /home/pi/HotTipEM/config/config.yaml
+2019-12-06 22:13:18,737 : INFO : ConfigProcessor : Loading config: /home/pi/HotTipEM/config/switches.yaml
+2019-12-06 22:13:18,749 : INFO : ConfigProcessor : Loading config: /home/pi/HotTipEM/config/keyboard.yaml
+2019-12-06 22:13:18,777 : INFO : ConfigProcessor : Loading config: /home/pi/HotTipEM/config/coils.yaml
+2019-12-06 22:13:18,783 : INFO : ConfigProcessor : Config file cache created: /tmp/97a0759ee607251f80db56c9576ff30a.mpf_cache
+2019-12-06 22:13:18,785 : INFO : Machine : Initialise MPF.
+2019-12-06 22:13:18,897 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,957 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,957 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,957 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.3', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,959 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-4.19.75-v7l+-armv7l-with-debian-10.2', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,960 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,960 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '4.19.75-v7l+', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,960 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1270 SMP Tue Sep 24 18:51:41 BST 2019', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,960 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'armv7l', 'prev_value': None, 'change': True}
+2019-12-06 22:13:18,960 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-12-06 22:13:19,030 : INFO : ConfigProcessor : Loading config from cache: /tmp/0488c24d6cb11f71168a087186f8afaf.mpf_cache
+2019-12-06 22:13:19,037 : INFO : ConfigProcessor : Loading config from cache: /tmp/7559345efe69122f4d6fb5f65214b482.mpf_cache
+2019-12-06 22:13:19,095 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...hat switch.")>) at /usr/local/lib/python3.7/dist-packages/mpf/core/events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...hat switch.")>) at /usr/local/lib/python3.7/dist-packages/mpf/core/events.py:96>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/device_manager.py", line 117, in _load_device_modules
+    yield from self.initialize_devices()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/device_manager.py", line 214, in initialize_devices
+    yield from collection[device_name].device_added_system_wide()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    yield from self._initialize()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/devices/autofire.py", line 73, in _initialize
+    self.config['playfield'].name), 1)
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/logging.py", line 139, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in autofire.left_slingshot: Autofire device 'left_slingshot' uses switch 's_left_slingshot' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire.left_slingshot-1
+2019-12-06 22:13:19,108 : INFO : Machine : Starting the main run loop.
+2019-12-06 22:13:19,108 : INFO : Machine : Shutting down...
+2019-12-06 22:13:19,108 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-12-06 22:13:19,113 : ERROR : root : Config File Error in autofire.left_slingshot: Autofire device 'left_slingshot' uses switch 's_left_slingshot' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire.left_slingshot-1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/mpf/commands/game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/machine.py", line 709, in run
+    self._run_loop()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "/usr/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/device_manager.py", line 117, in _load_device_modules
+    yield from self.initialize_devices()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/device_manager.py", line 214, in initialize_devices
+    yield from collection[device_name].device_added_system_wide()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    yield from self._initialize()
+  File "/usr/local/lib/python3.7/dist-packages/mpf/devices/autofire.py", line 73, in _initialize
+    self.config['playfield'].name), 1)
+  File "/usr/local/lib/python3.7/dist-packages/mpf/core/logging.py", line 139, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in autofire.left_slingshot: Autofire device 'left_slingshot' uses switch 's_left_slingshot' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire.left_slingshot-1

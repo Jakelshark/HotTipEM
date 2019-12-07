@@ -3,29 +3,37 @@
 switches:
   s_left_flipper:
     number:
-    tags: left_flipper
+    tags: playfield_active, left_flipper
   s_right_flipper:
     number:
-    tags: right_flipper
+    tags: playfield_active, right_flipper
   s_outhole: #09
     number:
     tags: outhole
   s_right_inlane: #12
     number:
+    tags: playfield_active
   s_left_inlane: #34
     number:
+    tags: playfield_active
   s_right_outlane: #11
     number:
+    tags: playfield_active
   s_left_outlane: #33
     number:
+    tags: playfield_active
   s_left_slingshot: #35
     number:
+    tags: #playfield_active
   s_right_slingshot: #13
     number:
+    tags: #playfield_active
   s_captive_ball_rollover: #15
     number:
+    tags: playfield_active
   s_captive_ball_target: #16
     number:
+    tags: playfield_active
   s_drop_l_1: #27
     number:
   s_drop_l_2: #26
@@ -40,26 +48,35 @@ switches:
     number:
   s_upper_rebound_left: #23
     number:
+    tags: playfield_active
   s_upper_rebound_right: #21
     number:
+    tags: playfield_active
   s_lower_rebound_right: #14
     number:
+    tags: playfield_active
   s_advance_bonus_standup: #20
     number:
+    tags: playfield_active
   s_top_saucer: #22
     number:
   s_left_top_rollover: #24
     number:
+    tags: playfield_active
   s_middle_left_rebound: #28
     number:
+    tags: playfield_active
   s_left_saucer: #29
     number:
   s_spinner: #30
     number:
-  s_pop: #31
+    tags: playfield_active
+  s_pop_bumper: #31
     number:
+    tags: #playfield_active
   s_lower_rebound_left: #32
     number:
+    tags: playfield_active
   s_drop_six_bank: #37
     number:
 #coin door
@@ -75,12 +92,18 @@ switches:
 #anti-cheat
   s_plumb_bomb_tilt: #1
     number:
+    tags: playfield_active, tilt_warning
   s_ball_roll_tilt: #2
     number:
+    tags: slam_tilt
   s_slam_tilt: #7
     number:
+    tags: slam_tilt
   s_playfield_tilt: #10
     number:
+    tags: slam_tilt
 
 #8 not used
 #36 not used
+#need to add shooter lane switch
+#need to add ball trough switches if installed
