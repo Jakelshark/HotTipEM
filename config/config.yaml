@@ -5,6 +5,9 @@ config:
   - keyboard.yaml
   - coils.yaml
 
+modes:
+  - base
+
 playfields:
   playfield:
    tags: default

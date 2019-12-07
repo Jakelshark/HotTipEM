@@ -38,7 +38,7 @@ coils:
     number:
     default_pulse_ms: 20
 
-#low priority
+#low priority to wire up
   c_knocker:
     number:
     default_pulse_ms: 20
