@@ -24,3 +24,60 @@ Horeshoes
     Feature adjustment - 
       liberal one collection of HOT TIP advances 1 and 2, resets, and then 3
       Conservative advances 1, resets, 2, resets, 3
+
+
+
+Future Ideas
+Super Modes
+- Hit left saucer to lite a mode (second time around, captive ball hit to qualify saucer to qualify mode to reduce play time). Switch hits change lit mode. Hit the top saucer to begin a mode. Where relevant, activate a timer where switch hits freeze timer. Score big points on lit feature. Collect huge bonus points at left saucer to end mode/grace-period after mode over and to lit next mode
+
+ 1) Super spinner = Stern Meteor spinner mixed with Iron Maiden Fear of the Dark ? - Big increase for spinner base value. Each drop target down increases spinner base value. Spinner value resets on 6 bank completion. Captive ball hits award multiplier. Left saucer resets drops to keep increasing value and maybe locks in a base value? Limited number of rips? Timed? Bonus points for landing in top saucer (extra time or rips?)
+ 
+ 2) Super captive ball = Hit captive ball for big points. Each drop target down increase captive ball value. Bank completions add multiplier. Left inlane activates temporary large multiplier to encourage fast play.
+ 
+ 3) Super drops = drop targets and pop high in value. Bank completions add multiplier. Captive ball hits increase base value
+ 
+ 4) Super skill shot = kill the flippers to drain the ball. How many times can the player succesfuly plunge into the saucer? Extra points for not hitting top rebound switches. Mode ends when any other switches are hit. Ball drains. Ball is served back to player to continue play. Extra bonus in left saucer on countdown.
+ 
+ 5) Super slings (?) = insane points on slingshots of death. Short ball save based on number of sling hits per second to encourage hitting the slings.
+ 
+ 6) Super saucer (?) = Countdown points to hit saucer. Hitting it rewards the points, resets countdown and for higher value. Cap number of completions?
+ 
+ 7) Moving spot drop target challenge (?) - reset alll drops - hit the moving lit drop target. Misses dont reset. Lasts until all drops are down and no more targets to hit. Bonuses for perfect hits and a perfect finish. Should pop be disabled/weakened to promote accurate play? (Need clear drops with additional lights for this). Sharpshooter variation? Flipper buttons move lit target
+ 
+ 8) Super inlanes (?) - Complete inlanes. Shatzing mode. (Need additional inlane lights for this)
+ 
+ 9) Around the playfield - hit set order of shots around the game. Maybe randomize, but probably better to have logical flow or psuedo-random. Countdown timer
+ 
+ 10) Super Duper Spinner rip - single rip, number of rotations = %of score to be added to current score
+ 
+ Super Wizard Mode = Awarded for completing all super modes. Switch frenzy. Huge points for everything. Timed mode with no additional time but free ball save to encourage play.
+ 
+Normal play
+- Right inlane temporaryily increases spinner value (2x)
+- Left inlane temporarily increases captive ball value
+- 6 bank Drop Target bank completions award bonus X
+- Captive ball hits activates mystery award and/or qualifies super modes
+
+Myster awards - left saucer
+- Absolutetly nothing
+- Small points
+- Big points
+- Increase value of X
+- Increase Bonus X
+- Free bonus collect
+- Extra ball
+- Ball save timer
+- Special
+- Start mode X
+
+
+Bonus: (ascending base values)
+- Switch hits total x
+- Spinner hits total x
+- drop target hits total x
+- top saucer hits x
+- left saucer hits x
+- Drop target 3 bank completions x
+- Drop target 6 bank completions x
+- Captive ball hits x
