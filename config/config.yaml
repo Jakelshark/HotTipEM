@@ -30,7 +30,7 @@ ball_devices:
     ball_switches: s_outhole
     eject_coil: c_outhole_kicker
     tags: trough, home, drain
-    debug: yes
+    # debug: yes
   bd_left_saucer:
     ball_switches: s_left_saucer
     eject_coil: c_left_saucer
