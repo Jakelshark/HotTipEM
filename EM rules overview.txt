@@ -1,4 +1,4 @@
-Saucer
+Saucer mode
   rebound rubbers next to saucer changes lit value
   ball in saucer collects lit value
     1 5,000 pts
