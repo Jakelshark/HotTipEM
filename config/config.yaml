@@ -51,6 +51,26 @@ autofire_coils: #possibly needs to be configured on a mode level basis, or need 
     coil: c_pop_bumper
     switch: s_pop_bumper
 
+drop_targets:
+  l_1:
+    switch: s_drop_l_1
+    reset_coil: c_drop_left_reset
+  l_2:
+    switch: s_drop_l_2
+    reset_coil: c_drop_left_reset
+  l_3:
+    switch: s_drop_l_3
+    reset_coil: c_drop_left_reset
+  r_1:
+    switch: s_drop_r_1
+    reset_coil: c_drop_right_reset
+  r_2:
+    switch: s_drop_r_2
+    reset_coil: c_drop_right_reset
+  r_3:
+    switch: s_drop_r_3
+    reset_coil: c_drop_right_reset
+
 virtual_platform_start_active_switches:
   s_outhole #ball starts in outhole when loading virtual instance of game
 
