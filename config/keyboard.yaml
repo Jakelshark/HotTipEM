@@ -1,6 +1,8 @@
 #config_version=5
 
 keyboard:
+  s:
+    switch: s_credit_button
   z:
     switch: s_left_flipper
   x:
@@ -19,5 +21,5 @@ keyboard:
     switch: s_right_inlane
   y:
     switch: s_right_outlane
-  s:
-    switch: s_credit_button
+
+  
