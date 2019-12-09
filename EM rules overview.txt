@@ -31,7 +31,7 @@ Future Ideas
 Super Modes
 - Hit left saucer to lite a mode (second time around, captive ball hit to qualify saucer to qualify mode to reduce play time). Switch hits change lit mode. Hit the top saucer to begin a mode. Where relevant, activate a timer where switch hits freeze timer. Score big points on lit feature. Collect huge bonus points at left saucer to end mode/grace-period after mode over and to lit next mode
 
- 1) Super spinner = Stern Meteor spinner mixed with Iron Maiden Fear of the Dark ? - Big increase for spinner base value. Each drop target down increases spinner base value. Spinner value resets on 6 bank completion. Captive ball hits award multiplier. Left saucer resets drops to keep increasing value and maybe locks in a base value? Limited number of rips? Timed? Bonus points for landing in top saucer (extra time or rips?)
+ 1) Super spinner = Stern Meteor spinner mixed with Iron Maiden Fear of the Dark - Big increase for spinner base value. Each drop target down increases spinner base value. Spinner value resets on 6 bank completion. Captive ball hits award multiplier. Left saucer resets drops to keep increasing value and maybe locks in a base value? Limited number of rips? Timed? Bonus points for landing in top saucer (extra time or rips?)
  
  2) Super captive ball = Hit captive ball for big points. Each drop target down increase captive ball value. Bank completions add multiplier. Left inlane activates temporary large multiplier to encourage fast play.
  
@@ -91,3 +91,31 @@ Bonus: (ascending base values)
 - Drop target 3 bank completions x
 - Drop target 6 bank completions x
 - Captive ball hits x
+
+
+Captive ball multiball idea
+- install disapearing post at entrance and behind switch.
+- no balls locked
+    - hitting rollover brings up post at bottom. one ball has now been locked
+        - hitting captured ball past roll over scores points
+        - hitting captured ball to stand up raises post after switch
+            - one ball now locked in midway position
+                - hitting stand up increases jackpot value
+                - hitting roll over switch locks next ball (change to mid captive ball hits standup for difficulty later)
+                    - two ball now locked 
+                        -hit lower captured ball to hit upper captured ball to hit standup to release 2 locked balls for 3 ball MB
+    - hitting standup brings up middle post
+            - one ball now locked in midway position
+            - hitting roll over switch locks next ball
+ 
+ - variations
+ - 2 MB, 3MB skill for lower level difficulty
+    - no balls
+        - lock a ball in lower position. hitting roll over or standup raises lower post
+        - hitting captive ball to rollver lowers post to start 2 ball multiball
+        - hitting standup with 1 ball locked will lower post and 1 additional ball will be autolaunched into play for 3 ball play
+    - ball in middle
+        - should this just auto drop at the end of a players ball to lower back down? Out of playfield entirely? Relased to player to play but cannot lock any more balls on that ball? (timed bonus ball? or timed bonus 2 ball multiball???)
+        - Maybe stay up in player has virtual lock on previous ball in a multiball
+        - hitting it to standup starts 3 ball multiball
+        - hitting roll over but not standup brings up lower post
