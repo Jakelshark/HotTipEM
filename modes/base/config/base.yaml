@@ -28,7 +28,40 @@ slide_player:
           font_size: 50
         
 variable_player:
-    s_right_inlane_active:
-        score: 100
-    s_left_flipper_active:
+    s_right_inlane_active: 
+        score: 5000
+    s_left_inlane_active:
+        score: 5000
+    s_right_outlane_active:
         score: 1000
+        bonus: 10000
+    s_left_outlane_active:
+        score: 1000
+        bonus: 10000
+    s_left_slingshot_active:
+        score: 10
+    s_right_slingshot_active:
+        score: 10
+    s_captive_ball_rollover_active:
+        score: 0 #check this
+        bonus: 10000        
+    s_upper_rebound_left_active:
+        score: 10
+    s_upper_rebound_righ_active:
+        score: 10
+    s_lower_rebound_right_active:
+        score: 10
+    s_advance_bonus_standup_active:
+        score: 1000 #check this
+        bonus: 10000
+    s_left_top_rollover_active:
+        score: 0 #This may not score anything? Could just be part of anti-cheat
+    s_middle_left_rebound_active:
+        score: 10
+    s_left_saucer_active: 
+        score: 500
+        bonus: 10000
+    s_pop_bumper_active:
+        score: 1000 #100 pts on 5-ball
+    s_lower_rebound_left_active:
+        score: 10
