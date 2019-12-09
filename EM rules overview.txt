@@ -119,3 +119,5 @@ Captive ball multiball idea
         - Maybe stay up in player has virtual lock on previous ball in a multiball
         - hitting it to standup starts 3 ball multiball
         - hitting roll over but not standup brings up lower post
+
+with the use of one way and control gates in the shooter lane, it may be possible to skillfully plunge balls into the captive ball area. Futher this could allow the game to load balls into the captive ball area for modes, random rewards, and competitive balance
