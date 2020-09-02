@@ -1,0 +1,7 @@
+#config_version=5
+
+tilt:
+    tilt_switch_tag: tilt
+    warnings_to_tilt: 1
+    reset_warnings_events: ball_ended
+    tilt_warnings_player_var: tilt_warnings
