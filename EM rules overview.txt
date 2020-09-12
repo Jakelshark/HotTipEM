@@ -121,3 +121,24 @@ Captive ball multiball idea
         - hitting roll over but not standup brings up lower post
 
 with the use of one way and control gates in the shooter lane, it may be possible to skillfully plunge balls into the captive ball area. Futher this could allow the game to load balls into the captive ball area for modes, random rewards, and competitive balance
+
+
+
+
+
+METEOR MODE
+  Drops add value to spin more down, more points
+  Adv standup inc drop val
+  cball adds x
+  l saucer locks in value and resets drop
+  fill in top saucer for one JP rip for % full value again  (cball adds x)
+  
+Alien Invasion
+  lock ball in saucer
+  add a ball
+  lock both balls in saucer
+  add a ball
+  each ball locked back in saucer will add playfield X and stay until a ball is drained
+  
+captive ball add-a-ball
+  timed, each hit adds-a-ball
