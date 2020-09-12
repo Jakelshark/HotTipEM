@@ -1,0 +1,50 @@
+wire connectors, locations, and wire colors
+
+SWITCH PCB 1
+    SW-16-1-J2
+      1   s_left_flipper            white             cabinet
+      2   s_right_flipper           red               cabinet
+      3   s_plumb_bomb_tilt         blue              cabinet
+      4   s_credit_button           yellow            cabinet
+      5   s_upper_rebound_left      red/black         playfield
+      6   s_upper_rebound_right     yellow/black      playfield
+      7   s_top_saucer              blue/black        playfield
+#     8   unused
+    SW-16-1-J6
+      1   s_drop_l_1
+      2   s_drop_l_2
+      3   s_drop_l_3
+      4   s_drop_r_1
+      5   s_drop_r_2
+      6   s_drop_r_3
+      7   s_pop_bumper
+#     8   unused
+
+SWITCH PCB 2
+    SW-16-2-J2 
+      1   s_outhole                 blue              playfield
+      2   s_right_inlane            white             playfield
+      3   s_right_slingshot         yellow            playfield
+      4   s_right_outlane           green             playfield
+      5   s_lower_rebound_right     red               playfield
+      6   s_captive_ball_rollover   blue/black        playfield
+      7   s_captive_ball_target     green/black       playfield
+      8   s_advance_bonus_standup   white/black       playfield
+    SW-16-2-J6
+      1   s_left_inlane             yellow            playfield
+      2   s_left_outlane            red               playfield
+      3   s_left_slingshot          white             playfield
+      4   s_lower_rebound_left      green             playfield
+      5   s_spinner                 blue              playfield
+      6   s_left_saucer             red/black         playfield
+      7   s_middle_left_rebound     yellow/black      playfield
+      8   s_left_top_rollover       white/black       playfield
+
+  
+unused
+  s_ball_roll_tilt: 
+  s_slam_tilt: 
+  s_playfield_tilt: 
+  s_right_coin:
+  s_center_coin:
+  s_left_coin:
