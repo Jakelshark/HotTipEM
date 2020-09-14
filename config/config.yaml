@@ -28,7 +28,7 @@ flippers: #flippers activated after boot for testing
 ball_devices:
   bd_trough:
     ball_switches: s_outhole
-    eject_coil: c_outhole_kicker
+    eject_coil: c_trough
     tags: trough, home, drain
     # debug: yes
   bd_left_saucer:
@@ -42,34 +42,34 @@ ball_devices:
 
 autofire_coils: #possibly needs to be configured on a mode level basis, or need to figure out how to disable in a mode like super-plunge
   left_slingshot:
-    coil: c_left_slingshot
-    switch: s_left_slingshot
+    coil: c_left_sling
+    switch: s_left_sling
   right_slingshot:
-    coil: c_right_slingshot
-    switch: s_right_slingshot
+    coil: c_right_sling
+    switch: s_right_sling
   pop_bumper:
-    coil: c_pop_bumper
+    coil: c_pop
     switch: s_pop_bumper
 
 drop_targets:
   l_1:
     switch: s_drop_l_1
-    reset_coil: c_drop_left_reset
+    reset_coil: c_drop_left
   l_2:
     switch: s_drop_l_2
-    reset_coil: c_drop_left_reset
+    reset_coil: c_drop_left
   l_3:
     switch: s_drop_l_3
-    reset_coil: c_drop_left_reset
+    reset_coil: c_drop_left
   r_1:
     switch: s_drop_r_1
-    reset_coil: c_drop_right_reset
+    reset_coil: c_drop_right
   r_2:
     switch: s_drop_r_2
-    reset_coil: c_drop_right_reset
+    reset_coil: c_drop_right
   r_3:
     switch: s_drop_r_3
-    reset_coil: c_drop_right_reset
+    reset_coil: c_drop_right
 
 virtual_platform_start_active_switches:
   s_outhole #ball starts in outhole when loading virtual instance of game
@@ -83,16 +83,25 @@ slides:
   welcome_slide:
     widgets:
       - type: text
-        text: PINBALL!
+        text: omg it's maybe working
         font_size: 50
         color: red
       - type: rectangle
-        width: 240
+        width: 600
         height: 60
   attract_started:
     widgets:
-      - text: ATTRACT MODE
+      - text: Hot Tip Pinball
         type: text
+      - text: Powered by Mission Pinball Framework
+        type: text
+        y: 20%
+      - text: Created by Trey
+        type: text
+        y: 40%
+    transition:
+      type: move_in
+      direction: right
 
 slide_player:
   init_done: welcome_slide

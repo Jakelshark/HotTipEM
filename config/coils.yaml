@@ -2,7 +2,7 @@
 
 coils:
   c_flipper_left_main:
-    number: 
+    number:
     default_pulse_ms: 20
   c_flipper_left_hold:
     number:
@@ -13,25 +13,25 @@ coils:
   c_flipper_right_hold:
     number:
     allow_enable: true
-  c_outhole_kicker:
+  c_trough:
     number:
     default_pulse_ms: 20
-  c_left_slingshot:
+  c_left_sling:
     number:
     default_pulse_ms: 20
-  c_right_slingshot:
+  c_right_sling:
     number:
     default_pulse_ms: 20
   c_left_saucer:
     number:
     default_pulse_ms: 20
-  c_pop_bumper:
+  c_pop:
     number:
     default_pulse_ms: 20
-  c_drop_left_reset:
+  c_drop_left:
     number:
     default_pulse_ms: 20
-  c_drop_right_reset:
+  c_drop_right:
     number:
     default_pulse_ms: 20
   c_top_saucer:
@@ -39,18 +39,18 @@ coils:
     default_pulse_ms: 20
 
 #low priority to wire up
-  c_knocker:
-    number:
-    default_pulse_ms: 20
-  c_chime_low:
-    number:
-    default_pulse_ms: 20
-  c_chime_medium:
-    number:
-    default_pulse_ms: 20
-  c_chime_large:
-    number:
-    default_pulse_ms: 20
+#  c_knocker:
+#    number:
+#    default_pulse_ms: 20
+#  c_chime_low:
+#    number:
+#    default_pulse_ms: 20
+#  c_chime_medium:
+#    number:
+#    default_pulse_ms: 20
+#  c_chime_large:
+#    number:
+#    default_pulse_ms: 20
 
 
 #future coil ideas

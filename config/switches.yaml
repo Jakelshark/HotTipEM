@@ -1,109 +1,112 @@
 #config_version=5
 
 switches:
-  s_left_flipper:
-    number:
-    tags: playfield_active, left_flipper
-  s_right_flipper:
-    number:
-    tags: playfield_active, right_flipper
-  s_outhole: #09
-    number:
+#playfield
+  s_outhole:
+    number: A1-B0-0
     tags: outhole
-  s_right_inlane: #12
-    number:
+  s_right_inlane:
+    number: A1-B0-1
     tags: playfield_active
-  s_left_inlane: #34
-    number:
+  s_left_inlane:
+    number: A1-B1-0
     tags: playfield_active
-  s_right_outlane: #11
-    number:
+  s_right_outlane:
+    number: A1-B0-3
     tags: playfield_active
-  s_left_outlane: #33
-    number:
+  s_left_outlane:
+    number: A1-B1-1
     tags: playfield_active
-  s_left_slingshot: #35
-    number:
+  s_left_sling:
+    number: A1-B1-2
     tags: #playfield_active
-  s_right_slingshot: #13
-    number:
+  s_right_sling:
+    number: A1-B0-2
     tags: #playfield_active
-  s_captive_ball_rollover: #15
-    number:
+  s_captive_ball_rollover:
+    number: A1-B0-5
     tags: playfield_active
-  s_captive_ball_target: #16
-    number:
+  s_captive_ball_target:
+    number: A1-B0-6
     tags: playfield_active
-  s_drop_l_1: #27
-    number:
+  s_drop_l_1:
+    number: A0-B1-0
   s_drop_l_2: #26
-    number:
+    number: A0-B1-1
   s_drop_l_3: #25
-    number:
+    number: A0-B1-2
   s_drop_r_1: #19
-    number:
+    number: A0-B1-3
   s_drop_r_2: #18
-    number:
+    number: A0-B1-4
   s_drop_r_3: #17
-    number:
-  s_upper_rebound_left: #23
-    number:
+    number: A0-B1-5
+  s_upper_rebound_left:
+    number: A0-B0-4
     tags: playfield_active
-  s_upper_rebound_right: #21
-    number:
+  s_upper_rebound_right:
+    number: A0-B0-5
     tags: playfield_active
-  s_lower_rebound_right: #14
-    number:
+  s_lower_rebound_right:
+    number: A1-B0-4
     tags: playfield_active
-  s_advance_bonus_standup: #20
-    number:
+  s_advance_bonus_standup:
+    number: A1-B0-7
     tags: playfield_active
-  s_top_saucer: #22
-    number:
-  s_left_top_rollover: #24
-    number:
+  s_top_saucer:
+    number: A0-B0-6
+  s_left_top_rollover:
+    number: A1-B1-7
     tags: playfield_active
-  s_middle_left_rebound: #28
-    number:
+  s_middle_left_rebound:
+    number: A1-B1-6
     tags: playfield_active
-  s_left_saucer: #29
-    number:
-  s_spinner: #30
-    number:
+  s_left_saucer:
+    number: A1-B1-5
+  s_spinner:
+    number: A1-B1-4
     tags: playfield_active
-  s_pop_bumper: #31
-    number:
+  s_pop_bumper:
+    number: A0-B0-7
     tags: #playfield_active
-  s_lower_rebound_left: #32
-    number:
+  s_lower_rebound_left:
+    number: A1-B1-3
     tags: playfield_active
-  s_drop_six_bank: #37
-    number:
+
 #coin door
-  s_credit_button: #3
+  s_credit_button:
     number:
     tags: start
-  s_right_coin: #4
-    number:
-  s_center_coin: #5
-    number:
-  s_left_coin: #6
-    number:  
-#anti-cheat
-  s_plumb_bomb_tilt: #1
+
+#CABINET
+  s_left_flipper:
+    number: A0-B0-0
+    tags: playfield_active, left_flipper
+  s_right_flipper:
+    number: A0-B0-1
+    tags: playfield_active, right_flipper
+  s_plumb_bomb_tilt:
     number:
     tags: playfield_active, tilt_warning
-  s_ball_roll_tilt: #2
-    number:
-    tags: slam_tilt
-  s_slam_tilt: #7
-    number:
-    tags: slam_tilt
-  s_playfield_tilt: #10
-    number:
-    tags: slam_tilt
 
-#8 not used
-#36 not used
+
+#  s_right_coin:
+#    number:
+#  s_center_coin:
+#    number:
+#  s_left_coin:
+#    number:
+#anti-cheat
+
+#  s_ball_roll_tilt:
+#    number:
+#    tags: slam_tilt
+#  s_slam_tilt:
+#    number:
+#    tags: slam_tilt
+#  s_playfield_tilt:
+#    number:
+#    tags: slam_tilt
+
 #need to add shooter lane switch
 #need to add ball trough switches if installed

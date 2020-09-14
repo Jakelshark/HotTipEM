@@ -1,0 +1,42 @@
+events:
+  game_ended: 2
+  game_started: 8
+player:
+  score:
+    average: 22000.0
+    top:
+    - 60000
+    - 3000
+    - 3000
+    total: 3
+switches:
+  s_advance_bonus_standup: 0
+  s_captive_ball_rollover: 0
+  s_captive_ball_target: 0
+  s_credit_button: 6
+  s_drop_l_1: 0
+  s_drop_l_2: 0
+  s_drop_l_3: 0
+  s_drop_r_1: 0
+  s_drop_r_2: 0
+  s_drop_r_3: 0
+  s_left_flipper: 5
+  s_left_inlane: 18
+  s_left_outlane: 18
+  s_left_saucer: 0
+  s_left_sling: 0
+  s_left_top_rollover: 0
+  s_lower_rebound_left: 0
+  s_lower_rebound_right: 0
+  s_middle_left_rebound: 0
+  s_outhole: 19
+  s_plumb_bomb_tilt: 0
+  s_pop_bumper: 0
+  s_right_flipper: 3
+  s_right_inlane: 2
+  s_right_outlane: 60
+  s_right_sling: 0
+  s_spinner: 0
+  s_top_saucer: 0
+  s_upper_rebound_left: 0
+  s_upper_rebound_right: 0
