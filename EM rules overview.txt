@@ -27,6 +27,113 @@ Horeshoes
 
 
 
+
+
+
+new game
+
+Top Saucer
+  Fill in 5 values to collect awards and build up spinner jackpot. See spinner for jackpot and filling progress
+  Five awards TBD, should scale
+
+
+Spinner and Top Saucer Fill
+  Drop target down increase spinner value, eg 100, 200, 300, 400, 500 (and then reset)
+  Six bank clear resets drops and resets spinner to base value
+      bank clears offer more points, Multiplier per bank clear? +.5x, +1x
+  Spinner shots that fall into saucer go into jackpot value
+      light all 5 shots to start jackpot spin
+          player gets one shot to rip the spinner
+              spinner turns collect % of jackpot value
+              if ball lands in saucer, collect full jackpot value + spinner rip value
+              captive ball hits to add X to JP value and % per spin
+          subsquent rounds will be more difficult to fill saucer
+              lvl 1 - lane change to select award on saucer and fill in lite, no refills
+              lvl 2 - no lane change
+                    - light moves side to side, locks in on top lane rollover
+                    - must light all 5
+                        - landing in already lit will add value but not light new light or give award
+              lvl 3 - timed with lane change
+                    - each lit will slowly fade after lighting
+                        - place ball back in saucer to add time and value
+                        - if goes out, value subbed. Can refill to add a new value, but no reward
+                        - switch hits pause fade
+                            - captive ball hits and drop target clears add large time
+              lvl 4 - fade with lvl 2 rules
+              lvl 5 - captive ball hits will start timer to lit saucer. Repeat lvl 1-4
+              
+              
+Drops
+  Each drop down scores value and adds value to drop target jackpot
+  Each 6 bank clear advances value of drop, adds multiplier to drop target jackpot val
+  After 6 bank clear, hurry up at left saucer
+
+
+Left inlane
+  temp flash c-ball for Bonus Collect
+    full credit wards bonus collect x captive ball X
+    half credit shots give % bonus collect based on how fast the shot was hit
+        countdown 2.5 seconds for 100% to 15%
+        fade rgb color 
+
+Right Inlane
+    temp flash spinner for super bonus advance
+        spinner rips build up bonus faster
+
+
+Left Saucer
+    Collect nominal building value
+    Collect value of drop targets down, banks completed since last collect = X+ 
+    Collect mystery award if lit
+        Mystery Awards
+            1   ball save
+            2   outlane save
+            3   lit/collect a top suacer (based on avg value)
+            4   complete top saucer (based on avg value)
+            5   bonus x
+            6   bonus collect
+            7   increase spinner x
+            8   increase drop x
+            9   
+
+Top standup target
+    Advances value of drops
+    Advances progress to light mystery award
+    
+Pop and Slings and Rebounds
+    high to low value based on number of drops currently up x bank clears
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Old future ideas
+
+
+
+
 Future Ideas
 Super Modes
 - Hit left saucer to lite a mode (second time around, captive ball hit to qualify saucer to qualify mode to reduce play time). Switch hits change lit mode. Hit the top saucer to begin a mode. Where relevant, activate a timer where switch hits freeze timer. Score big points on lit feature. Collect huge bonus points at left saucer to end mode/grace-period after mode over and to lit next mode
