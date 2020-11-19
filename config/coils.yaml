@@ -1,42 +1,36 @@
 #config_version=5
 
 coils:
-  c_flipper_left_main:
-    number:
-    default_pulse_ms: 20
-  c_flipper_left_hold:
+  c_flipper_left:
     number:
     allow_enable: true
-  c_flipper_right_main:
-    number:
-    default_pulse_ms: 20
-  c_flipper_right_hold:
+  c_flipper_righ:
     number:
     allow_enable: true
   c_trough:
     number:
-    default_pulse_ms: 20
+    default_pulse_ms: 8
   c_left_sling:
     number:
-    default_pulse_ms: 20
+    default_pulse_ms: 8
   c_right_sling:
     number:
-    default_pulse_ms: 20
+    default_pulse_ms: 8
   c_left_saucer:
     number:
-    default_pulse_ms: 20
+    default_pulse_ms: 8
   c_pop:
     number:
-    default_pulse_ms: 20
+    default_pulse_ms: 8
   c_drop_left:
     number:
-    default_pulse_ms: 20
+    default_pulse_ms: 8
   c_drop_right:
     number:
-    default_pulse_ms: 20
+    default_pulse_ms: 8
   c_top_saucer:
     number:
-    default_pulse_ms: 20
+    default_pulse_ms: 8
 
 #low priority to wire up
 #  c_knocker:

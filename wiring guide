@@ -1,73 +1,95 @@
 wire connectors, locations, and wire colors
+other random notes and ideas
 
 
 SWITCHES
-        SWITCH PCB 1
-         SW-16-1-J2
-         A0-B0-
-                0   s_left_flipper                  white             cabinet
-                1   s_right_flipper                 red               cabinet
-                2   s_plumb_bomb_tilt               blue              cabinet
-                3   s_credit_button                 yellow            cabinet
-                4   s_upper_rebound_left            red/black         playfield
-                5   s_upper_rebound_right           yellow/black      playfield
-                6   s_top_saucer                    blue/black        playfield
-                7   s_pop_bumper                    red/black         playfield     #I'm the worst
-         SW-16-1-J6
-         A0-B1-
-                0   s_drop_l_1                      blue              playfield
-                1   s_drop_l_2                      white             playfield
-                2   s_drop_l_3                      green             playfield
-                3   s_drop_r_1                      blue/black        playfield
-                4   s_drop_r_2                      white/black       playfield
-                5   s_drop_r_3                      green/black       playfield
-#               6   unused
-#               7   unused
+      SWITCH PCB 1
+       SW-16-1-J2
+       A0-B0-
+              0   s_left_flipper                  white             cabinet
+              1   s_right_flipper                 red               cabinet
+              2   s_plumb_bomb_tilt               blue              cabinet
+              3   s_credit_button                 yellow            cabinet
+              4   s_upper_rebound_left            red/black         playfield
+              5   s_upper_rebound_right           yellow/black      playfield
+              6   s_top_saucer                    blue/black        playfield
+              7   s_pop_bumper                    red/black         playfield     #I'm the worst
+        SW-16-1-J6
+        A0-B1-
+              0   s_drop_l_1                      blue              playfield
+              1   s_drop_l_2                      white             playfield
+              2   s_drop_l_3                      green             playfield
+              3   s_drop_r_1                      blue/black        playfield
+              4   s_drop_r_2                      white/black       playfield
+              5   s_drop_r_3                      green/black       playfield
+#             6   unused
+#             7   unused
 
-        SWITCH PCB 2
-         SW-16-2-J2
-         A1-B0-
-                0   s_outhole                       blue              playfield
-                1   s_right_inlane                  white             playfield
-                2   s_right_slingshot               yellow            playfield
-                3   s_right_outlane                 green             playfield
-                4   s_lower_rebound_right           red               playfield
-                5   s_captive_ball_rollover         blue/black        playfield
-                6   s_captive_ball_target           green/black       playfield
-                7   s_advance_bonus_standup         white/black       playfield
-         SW-16-2-J6
-         A1-B1-
-                0   s_left_inlane                   yellow            playfield
-                1   s_left_outlane                  red               playfield
-                2   s_left_slingshot                white             playfield
-                3   s_lower_rebound_left            green             playfield
-                4   s_spinner                       blue              playfield
-                5   s_left_saucer                   red/black         playfield
-                6   s_middle_left_rebound           yellow/black      playfield
-                7   s_left_top_rollover             white/black       playfield
-
-unused
-  s_ball_roll_tilt:
-  s_slam_tilt:
-  s_playfield_tilt:
-  s_right_coin:
-  s_center_coin:
-  s_left_coin:
-
-4 ball trough
-use 2 unused, combine top rebounds for 1
+      SWITCH PCB 2
+        SW-16-2-J2
+        A1-B0-
+              0   s_outhole                       blue              playfield
+              1   s_right_inlane                  white             playfield
+              2   s_right_slingshot               yellow            playfield
+              3   s_right_outlane                 green             playfield
+              4   s_lower_rebound_right           red               playfield
+              5   s_captive_ball_rollover         blue/black        playfield
+              6   s_captive_ball_target           green/black       playfield
+              7   s_advance_bonus_standup         white/black       playfield
+        SW-16-2-J6
+        A1-B1-
+              0   s_left_inlane                   yellow            playfield
+              1   s_left_outlane                  red               playfield
+              2   s_left_slingshot                white             playfield
+              3   s_lower_rebound_left            green             playfield
+              4   s_spinner                       blue              playfield
+              5   s_left_saucer                   red/black         playfield
+              6   s_middle_left_rebound           yellow/black      playfield
+              7   s_left_top_rollover             white/black       playfield
 
 
-coils:
-  c_flipper_left_main:
-  c_flipper_left_hold:
-  c_flipper_right_main:
-  c_flipper_right_hold:
-  c_trough:
-  c_left_sling:
-  c_right_sling:
-  c_left_saucer:
-  c_pop:
-  c_drop_left:
-  c_drop_right:
-  c_top_saucer:
+  LAMPS
+      LAMP PCB 1
+        J5      LA1     Shoot Again       B1            B2                B3
+        J9      LA2     R Sling           R out         B5                B4
+        J6      LA3     B7                B6            L Sling           L out
+        J10     LA4     CBall Arrow       Mid R GI      CBall GI low      CBall GI high
+        J7      LA5     1 Horse           B10           B9                B8
+        J11     LA6     L Saucer GI       Spin Arrrow   L Saucer Insert   Mid L GI
+        J8      LA7     3 Horse           Double Bonus  2 Horse           Pop Bumper
+
+      LAMP PCB 2
+        J5      LB1     L Drop Low In   L Drop Top In   R Drop Top In     R Drop Low In
+        J9      LB2     C Ball GI       R Drop R GI     R Drop L GI       R Drop GI
+        J6      LB3     Spin GI         L Drop L GI     L Drop GI Low     L Drop GI High
+        J10     LB4     L Top Inlane    L Drop R GI     L Drop GI Right   T Saucer 1
+        J7      LB5     T Saucer 2      T Saucer 3      T Saucer 4        T Saucer 5
+#1      J11     LB6     R Top Inlane    R Drop GI Right R Top GI          Unused
+#4      J8      UNUSED 
+
+
+
+
+        unused
+          s_ball_roll_tilt:
+          s_slam_tilt:
+          s_playfield_tilt:
+          s_right_coin:
+          s_center_coin:
+          s_left_coin:
+
+        4 ball trough
+        use 2 unused, combine top rebounds for 1
+
+
+        coils:
+          c_flipper_left:
+          c_flipper_right:
+          c_trough:
+          c_left_sling:
+          c_right_sling:
+          c_left_saucer:
+          c_pop:
+          c_drop_left:
+          c_drop_right:
+          c_top_saucer:
