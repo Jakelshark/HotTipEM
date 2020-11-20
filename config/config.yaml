@@ -4,6 +4,7 @@ config:
   - switches.yaml
   - keyboard.yaml
   - coils.yaml
+  - lamps.yaml
 
 modes:
   - base
@@ -15,11 +16,11 @@ playfields:
 
 flippers: #flippers activated after boot for testing
  left_flipper:
-   main_coil: c_flipper_left_main
+   main_coil: c_flipper_left
    activation_switch: s_left_flipper
    enable_events: machine_reset_phase_3 #allow flippers after boot for testing
  right_flipper:
-   main_coil: c_flipper_right_main
+   main_coil: c_flipper_right
    activation_switch: s_right_flipper
    enable_events: machine_reset_phase_3 #allow flippers after boot for testing
 

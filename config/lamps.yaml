@@ -1,6 +1,22 @@
 #config_version=5
 lights:
 
+#Lamps organized by PD-LED, then by connector, generally working from bottom to top and right to left
+#
+#PD-LED numbering convention
+#a-b-c-d
+# a = address board
+# b = LED 1
+# c = LED 2
+# d = lED 3
+# bcd combined for RGB.
+# Value = 0 to 83.
+# subtype probably doesn't have to be defined
+# fade_ms reduces LED flicker, Stern uses 40ms
+# tags for label GI and other terms
+# label for name in Service Menu
+# polarity set for common ground LEDs
+
 #PD-LED-1
   #J5 LA1
     l_ShootAgain:
@@ -433,6 +449,7 @@ lights:
 #        label:
 #        platform_settings:
 #          polarity: true
+
 #  #J8 LB7 # UNUSED
 #    l_:
 #      number: 2-72-73-74
