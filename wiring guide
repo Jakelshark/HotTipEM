@@ -4,6 +4,8 @@ other random notes and ideas
 COILS
     PD-16
         Address 0
+        24 V to A and B
+        6 of 16 unused
               A1      c_flipper_left:               green             J7-3
               A2      c_left_sling:                 yellow            J7-4
               A3      c_left_saucer:                blue              J7-5

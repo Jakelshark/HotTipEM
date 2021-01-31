@@ -8,6 +8,7 @@ config:
 
 modes:
   - base
+#  - bonus
 
 playfields:
   playfield:
@@ -39,14 +40,14 @@ ball_devices:
     eject_coil: c_top_saucer
     eject_timeouts: 500ms
 
-autofire_coils: #possibly needs to be configured on a mode level basis, or need to figure out how to disable in a mode like super-plunge
-  left_slingshot:
+autofire_coils:
+  afc_left_slingshot:
     coil: c_left_sling
     switch: s_left_sling
-  right_slingshot:
+  afc_right_slingshot:
     coil: c_right_sling
     switch: s_right_sling
-  pop_bumper:
+  afc_pop_bumper:
     coil: c_pop
     switch: s_pop_bumper
 
@@ -70,8 +71,8 @@ drop_targets:
     switch: s_drop_r_3
     reset_coil: c_drop_right
 
-virtual_platform_start_active_switches:
-  s_outhole #ball starts in outhole when loading virtual instance of game
+virtual_platform_start_active_switches: #ball starts in outhole when loading virtual instance of game
+  s_outhole
 
 displays:
   window:

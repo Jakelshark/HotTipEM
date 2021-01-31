@@ -21,7 +21,7 @@ Horeshoes
         advances drop target values to 1,000
     3 - advances drop target values to 10,000
         lights alternating special in the outlane
-    Feature adjustment - 
+    Feature adjustment -
       liberal one collection of HOT TIP advances 1 and 2, resets, and then 3
       Conservative advances 1, resets, 2, resets, 3
 
@@ -42,6 +42,7 @@ Spinner and Top Saucer Fill
   Six bank clear resets drops and resets spinner to base value
       bank clears offer more points, Multiplier per bank clear? +.5x, +1x
   Spinner shots that fall into saucer go into jackpot value
+      upper rebound bounces increase bonus x
       light all 5 shots to start jackpot spin
           player gets one shot to rip the spinner
               spinner turns collect % of jackpot value
@@ -61,8 +62,8 @@ Spinner and Top Saucer Fill
                             - captive ball hits and drop target clears add large time
               lvl 4 - fade with lvl 2 rules
               lvl 5 - captive ball hits will start timer to lit saucer. Repeat lvl 1-4
-              
-              
+
+
 Drops
   Each drop down scores value and adds value to drop target jackpot
   Each 6 bank clear advances value of drop, adds multiplier to drop target jackpot val
@@ -74,7 +75,7 @@ Left inlane
     full credit wards bonus collect x captive ball X
     half credit shots give % bonus collect based on how fast the shot was hit
         countdown 2.5 seconds for 100% to 15%
-        fade rgb color 
+        fade rgb color
 
 Right Inlane
     temp flash spinner for super bonus advance
@@ -83,7 +84,7 @@ Right Inlane
 
 Left Saucer
     Collect nominal building value
-    Collect value of drop targets down, banks completed since last collect = X+ 
+    Collect value of drop targets down, banks completed since last collect = X+
     Collect mystery award if lit
         Mystery Awards
             1   ball save
@@ -94,12 +95,12 @@ Left Saucer
             6   bonus collect
             7   increase spinner x
             8   increase drop x
-            9   
+            9
 
 Top standup target
     Advances value of drops
     Advances progress to light mystery award
-    
+
 Pop and Slings and Rebounds
     high to low value based on number of drops currently up x bank clears
 
@@ -139,27 +140,27 @@ Super Modes
 - Hit left saucer to lite a mode (second time around, captive ball hit to qualify saucer to qualify mode to reduce play time). Switch hits change lit mode. Hit the top saucer to begin a mode. Where relevant, activate a timer where switch hits freeze timer. Score big points on lit feature. Collect huge bonus points at left saucer to end mode/grace-period after mode over and to lit next mode
 
  1) Super spinner = Stern Meteor spinner mixed with Iron Maiden Fear of the Dark - Big increase for spinner base value. Each drop target down increases spinner base value. Spinner value resets on 6 bank completion. Captive ball hits award multiplier. Left saucer resets drops to keep increasing value and maybe locks in a base value? Limited number of rips? Timed? Bonus points for landing in top saucer (extra time or rips?)
- 
+
  2) Super captive ball = Hit captive ball for big points. Each drop target down increase captive ball value. Bank completions add multiplier. Left inlane activates temporary large multiplier to encourage fast play.
- 
+
  3) Super drops = drop targets and pop high in value. Bank completions add multiplier. Captive ball hits increase base value
- 
+
  4) Super plunge = kill the flippers to drain the ball. How many times can the player succesfuly plunge into the saucer? Extra points for not hitting top rebound switches. Mode ends when any other switches are hit. Ball drains. Ball is served back to player to continue play. Extra bonus in left saucer on countdown.
- 
+
  5) Super slings (?) = insane points on slingshots of death. Short ball save based on number of sling hits per second to encourage hitting the slings.
- 
+
  6) Super saucer (?) = Countdown points to hit saucer. Hitting it rewards the points, resets countdown and for higher value. Cap number of completions?
- 
+
  7) Moving spot drop target challenge (?) - reset alll drops - hit the moving lit drop target. Misses dont reset. Lasts until all drops are down and no more targets to hit. Bonuses for perfect hits and a perfect finish. Should pop be disabled/weakened to promote accurate play? (Need clear drops with additional lights for this). Sharpshooter variation? Flipper buttons move lit target
- 
+
  8) Super inlanes (?) - Complete inlanes. Shatzing mode. (Need additional inlane lights for this)
- 
+
  9) Around the playfield - hit set order of shots around the game. Maybe randomize, but probably better to have logical flow or psuedo-random. Countdown timer
- 
+
  10) Super Duper Spinner rip - single rip, number of rotations = %of score to be added to current score
- 
+
  Super Wizard Mode = Awarded for completing all super modes. Switch frenzy. Huge points for everything. Timed mode with no additional time but free ball save to encourage play.
- 
+
 Normal play
 - Right inlane temporaryily increases spinner value (2x)
 - Left inlane temporarily increases captive ball value
@@ -209,12 +210,12 @@ Captive ball multiball idea
             - one ball now locked in midway position
                 - hitting stand up increases jackpot value
                 - hitting roll over switch locks next ball (change to mid captive ball hits standup for difficulty later)
-                    - two ball now locked 
+                    - two ball now locked
                         -hit lower captured ball to hit upper captured ball to hit standup to release 2 locked balls for 3 ball MB
     - hitting standup brings up middle post
             - one ball now locked in midway position
             - hitting roll over switch locks next ball
- 
+
  - variations
  - 2 MB, 3MB skill for lower level difficulty
     - no balls
@@ -239,13 +240,13 @@ METEOR MODE
   cball adds x
   l saucer locks in value and resets drop
   fill in top saucer for one JP rip for % full value again  (cball adds x)
-  
+
 Alien Invasion
   lock ball in saucer
   add a ball
   lock both balls in saucer
   add a ball
   each ball locked back in saucer will add playfield X and stay until a ball is drained
-  
+
 captive ball add-a-ball
   timed, each hit adds-a-ball

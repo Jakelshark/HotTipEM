@@ -32,41 +32,78 @@ slide_player:
           anchor_y: bottom
           font_size: 50
 
+shots:
+    sh_right_inlane:
+      switch: s_right_inlane_active
+    sh_left_inlane:
+      switch: s_left_inlane_active
+    sh_right_outlane:
+      switch: s_right_outlane_active
+    sh_left_outlane:
+      switch: s_left_outlane_active
+    sh_left_slingshot:
+      switch: s_left_slingshot_active
+    sh_right_slingshot:
+      switch: s_right_slingshot_active
+    sh_captive_ball_rollover:
+      switch: s_captive_ball_rollover_active
+    sh_upper_rebound_left:
+      switch: s_upper_rebound_left_active
+    sh_upper_rebound_right:
+      switch: s_upper_rebound_right_active
+    sh_lower_rebound_right:
+      switch: s_lower_rebound_right_active
+    sh_advance_bonus_standup:
+      switch: s_advance_bonus_standup_active
+    sh_left_top_rollover:
+      switch: s_left_top_rollover_active
+    sh_middle_left_rebound:
+      switch: s_middle_left_rebound_active
+    sh_left_saucer:
+      switch: s_left_saucer_active
+    sh_spinner:
+      switch: s_spinner_active
+    sh_pop_bumper:
+      switch: s_pop_bumper_active
+    sh_lower_rebound_left:
+      switch: s_lower_rebound_left_active
+
+
 variable_player:
-    s_right_inlane_active:
+    sh_right_inlane_hit:
         score: 5000
-    s_left_inlane_active:
+    sh_left_inlane_hit:
         score: 5000
-    s_right_outlane_active:
+    sh_right_outlane_hit:
         score: 1000
-        bonus: 10000
-    s_left_outlane_active:
+        bonus_ladder: 1
+    sh_left_outlane_hit:
         score: 1000
-        bonus: 10000
-    s_left_slingshot_active:
+        bonus_ladder: 1
+    sh_left_slingshot_hit:
         score: 10
-    s_right_slingshot_active:
+    sh_right_slingshot_hit:
         score: 10
-    s_captive_ball_rollover_active:
+    sh_captive_ball_rollover_hit:
         score: 0 #check this
-        bonus: 10000
-    s_upper_rebound_left_active:
+        bonus_ladder: 1
+    sh_upper_rebound_left_hit:
         score: 10
-    s_upper_rebound_righ_active:
+    sh_upper_rebound_right_hit:
         score: 10
-    s_lower_rebound_right_active:
+    sh_lower_rebound_right_hit:
         score: 10
-    s_advance_bonus_standup_active:
+    sh_advance_bonus_standup_hit:
         score: 1000 #check this
-        bonus: 10000
-    s_left_top_rollover_active:
+        bonus_ladder: 1
+    sh_left_top_rollover_hit:
         score: 0 #This may not score anything? Could just be part of anti-cheat
-    s_middle_left_rebound_active:
+    sh_middle_left_rebound_hit:
         score: 10
-    s_left_saucer_active:
+    sh_left_saucer_hit:
         score: 500
-        bonus: 10000
-    s_pop_bumper_active:
+        bonus_ladder: 1
+    sh_pop_bumper_hit:
         score: 1000 #100 pts on 5-ball
-    s_lower_rebound_left_active:
+    sh_lower_rebound_left_hit:
         score: 10
