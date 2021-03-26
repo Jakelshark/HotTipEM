@@ -1,0 +1,39 @@
+events:
+  game_ended: 0
+  game_started: 7
+player:
+  score:
+    average: 0
+    top: []
+    total: 0
+switches:
+  s_advance_bonus_standup: 2
+  s_captive_ball_rollover: 0
+  s_captive_ball_target: 0
+  s_left_drop_center: 1
+  s_left_drop_left: 0
+  s_left_drop_right: 1
+  s_left_flipper: 4
+  s_left_inlane: 27
+  s_left_middle_rebound: 25
+  s_left_outlane: 10
+  s_left_saucer: 12
+  s_left_slingshot: 33
+  s_left_top_rollover: 25
+  s_lower_rebound_left: 30
+  s_lower_right_rebound: 26
+  s_outhole: 150
+  s_plumb_bomb_tilt: 0
+  s_pop_bumper: 47
+  s_right_drop_center: 0
+  s_right_drop_left: 1
+  s_right_drop_right: 1
+  s_right_flipper: 3
+  s_right_inlane: 124
+  s_right_outlane: 26
+  s_right_slingshot: 36
+  s_spinner: 561
+  s_start: 0
+  s_top_saucer: 29
+  s_upper_rebound_left: 61
+  s_upper_rebound_right: 38

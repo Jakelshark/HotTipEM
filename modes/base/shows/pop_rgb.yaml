@@ -1,0 +1,64 @@
+#show_version=5
+- time: 0
+  lights:
+    l_Pop: 330000
+- time: '+1'
+  lights:
+    l_Pop: 990000
+- time: '+1'
+  lights:
+    l_Pop: FF0000
+- time: '+1'
+  lights:
+    l_Pop: FF6666
+- time: '+1'
+  lights:
+    l_Pop: FFB266
+- time: '+1'
+  lights:
+    l_Pop: CC6600
+- time: '+1'
+  lights:
+    l_Pop: 333300
+- time: '+1'
+  lights:
+    l_Pop: 336600
+- time: '+1'
+  lights:
+    l_Pop: 66CC00
+- time: '+1'
+  lights:
+    l_Pop: 33FF33
+- time: '+1'
+  lights:
+    l_Pop: 006633
+- time: '+1'
+  lights:
+    l_Pop: 00CCCC
+- time: '+1'
+  lights:
+    l_Pop: 99CCFF
+- time: '+1'
+  lights:
+    l_Pop: 0080FF
+- time: '+1'
+  lights:
+    l_Pop: 000099
+- time: '+1'
+  lights:
+    l_Pop: 3333FF
+- time: '+1'
+  lights:
+    l_Pop: FF66FF
+- time: '+1'
+  lights:
+    l_Pop: CC00CC
+- time: '+1'
+  lights:
+    l_Pop: 990040
+- time: '+1'
+  lights:
+    l_Pop: FF3399
+- time: '+1'
+  lights:
+    l_Pop: 990040

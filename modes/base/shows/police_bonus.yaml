@@ -1,0 +1,157 @@
+#show_version=5
+- time: 0
+  lights:
+    l_B1: ff0000
+    l_B2: ff0000
+    l_B3: ff0000
+    l_B4: ff0000
+    l_B5: ff0000
+    l_B6: ff0000
+    l_B7: ff0000
+    l_B8: ff0000
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: ffffff
+    l_B2: ff0000
+    l_B3: ff0000
+    l_B4: ff0000
+    l_B5: ff0000
+    l_B6: ff0000
+    l_B7: ff0000
+    l_B8: ff0000
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: ffffff
+    l_B3: ff0000
+    l_B4: ff0000
+    l_B5: ff0000
+    l_B6: ff0000
+    l_B7: ff0000
+    l_B8: ff0000
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: ffffff
+    l_B4: ff0000
+    l_B5: ff0000
+    l_B6: ff0000
+    l_B7: ff0000
+    l_B8: ff0000
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: 0000ff
+    l_B4: ffffff
+    l_B5: ff0000
+    l_B6: ff0000
+    l_B7: ff0000
+    l_B8: ff0000
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: 0000ff
+    l_B4: 0000ff
+    l_B5: ffffff
+    l_B6: ff0000
+    l_B7: ff0000
+    l_B8: ff0000
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: 0000ff
+    l_B4: 0000ff
+    l_B5: 0000ff
+    l_B6: ffffff
+    l_B7: ff0000
+    l_B8: ff0000
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: 0000ff
+    l_B4: 0000ff
+    l_B5: 0000ff
+    l_B6: 0000ff
+    l_B7: ffffff
+    l_B8: ff0000
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: 0000ff
+    l_B4: 0000ff
+    l_B5: 0000ff
+    l_B6: 0000ff
+    l_B7: 0000ff
+    l_B8: ffffff
+    l_B9: ff0000
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: 0000ff
+    l_B4: 0000ff
+    l_B5: 0000ff
+    l_B6: 0000ff
+    l_B7: 0000ff
+    l_B8: 0000ff
+    l_B9: ffffff
+    l_B10: ff0000
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: 0000ff
+    l_B4: 0000ff
+    l_B5: 0000ff
+    l_B6: 0000ff
+    l_B7: 0000ff
+    l_B8: 0000ff
+    l_B9: 0000ff
+    l_B10: ffffff
+- time: '+1'
+  lights:
+    l_B1: 0000ff
+    l_B2: 0000ff
+    l_B3: 0000ff
+    l_B4: 0000ff
+    l_B5: 0000ff
+    l_B6: 0000ff
+    l_B7: 0000ff
+    l_B8: 0000ff
+    l_B9: 0000ff
+    l_B10: 0000ff
+- time: '+0.5'
+  lights:
+    l_Horse1: ffffff
+    l_Horse2: ffffff
+    l_Horse3: ffffff
+    l_Double_Bonus: 00ff00
+- time: '+0.5'
+  lights:
+    l_Horse1: 000000
+    l_Horse2: 000000
+    l_Horse3: 000000
+    l_Double_Bonus: 000000

@@ -1,0 +1,77 @@
+#config_version=5
+
+hardware:
+  platform: p3_roc
+  driverboards: pdb
+
+playfields:
+  playfield:
+   tags: default
+   default_source_device: bd_trough
+
+ball_devices:
+  bd_trough:
+    ball_switches: s_outhole
+    eject_coil: c_trough
+    tags: trough, home, drain
+  bd_left_saucer:
+    ball_switches: s_left_saucer
+    eject_coil: c_left_saucer
+    eject_timeouts: 500ms
+  bd_top_saucer:
+    ball_switches: s_top_saucer
+    eject_coil: c_top_saucer
+    eject_timeouts: 500ms
+
+autofire_coils:
+  afc_left_slingshot:
+    coil: c_left_slingshot
+    switch: s_left_slingshot
+  afc_right_slingshot:
+    coil: c_right_slingshot
+    switch: s_right_slingshot
+  afc_pop_bumper:
+    coil: c_pop
+    switch: s_pop_bumper
+
+drop_targets:
+  drop_left_left:
+    switch: s_left_drop_left
+    reset_coil: c_drop_left
+  drop_left_center:
+    switch: s_left_drop_center
+    reset_coil: c_drop_left
+  drop_left_right:
+    switch: s_left_drop_right
+    reset_coil: c_drop_left
+  drop_right_left:
+    switch: s_right_drop_left
+    reset_coil: c_drop_right
+  drop_right_center:
+    switch: s_right_drop_center
+    reset_coil: c_drop_right
+  drop_right_right:
+    switch: s_right_drop_right
+    reset_coil: c_drop_right
+
+
+coils:
+  c_trough:
+    number: A4-B0-2
+  c_left_saucer:
+    number: A4-B0-3
+  c_top_saucer:
+    number: A4-B0-4
+  c_left_slingshot:
+    number: A5-B0-2
+  c_right_slingshot:
+    number: A5-B0-3
+  c_pop:
+    number: A5-B0-4
+  c_drop_left:
+    number: A5-B0-5
+  c_drop_right:
+    number: A5-B0-6
+
+virtual_platform_start_active_switches: #ball starts in outhole when loading virtual instance of game
+  s_outhole

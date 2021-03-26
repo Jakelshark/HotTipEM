@@ -1,0 +1,25 @@
+#show_version=5
+- time: 0
+  lights:
+    l_R_sling: ffffff
+    l_L_sling: ffffff
+    l_CBall_GI_High: ffffff
+    l_CBall_GI_Low: ffffff
+    l_R_Mid_GI: ffffff
+    l_L_Mid_GI: ffffff
+    l_L_Saucer_GI: ffffff
+    l_CBall_GI: ffffff
+    l_R_Drop_R_GI: ffffff
+    l_R_Drop_L_GI: ffffff
+    l_R_Drop_GI: ffffff
+    l_L_Drop_GI_High: ffffff
+    l_L_Drop_GI_Low: ffffff
+    l_L_Drop_L_GI: ffffff
+    l_Spinner_GI: ffffff
+    l_L_Rebound: ffffff
+    l_L_Drop_GI_R: ffffff
+    l_L_Top_Inlane: ffffff
+    l_R_Top_GI: ffffff
+    l_R_Rebound: ffffff
+    l_R_Top_Inlane: ffffff
+  duration: -1

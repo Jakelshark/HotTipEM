@@ -1,485 +1,309 @@
 #config_version=5
+
 lights:
-
-#Lamps organized by PD-LED, then by connector, generally working from bottom to top and right to left
-#
-#PD-LED numbering convention
-#a-b-c-d
-# a = address board
-# b = LED 1
-# c = LED 2
-# d = lED 3
-# bcd combined for RGB.
-# Value = 0 to 83.
-# subtype probably doesn't have to be defined
-# fade_ms reduces LED flicker, Stern uses 40ms
-# tags for label GI and other terms
-# label for name in Service Menu
-# polarity set for common ground LEDs
-
-#PD-LED-1
-  #J5 LA1
-    l_ShootAgain:
-      number: 1-0-1-2
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Shoot Again Insert
-        platform_settings:
-          polarity: true
-    l_B1:
-      number: 1-3-4-5
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 1 Insert
-        platform_settings:
-          polarity: true
-    l_B2:
-      number: 1-6-7-8
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 2 Insert
-        platform_settings:
-          polarity: true
-    l_B3:
-      number: 1-9-10-11
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Lader 3 Insert
-        platform_settings:
-          polarity: true
-  #J9 LA2
-    l_RSlingGI:
-      number: 1-12-13-14
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Right Sling GI
-        platform_settings:
-          polarity: true
-    l_ROutlane:
-      number: 1-15-16-17
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Right Outlane Insert
-        platform_settings:
-          polarity: true
-    l_B5:
-      number: 1-18-19-20
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 5 Insert
-        platform_settings:
-          polarity: true
-    l_B4:
-      number: 1-21-22-23
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 4 Insert
-        platform_settings:
-          polarity: true
-  #J6 LA3
-    l_B7:
-      number: 1-24-25-26
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 7 Insert
-        platform_settings:
-          polarity: true
-    l_B6:
-      number: 1-27-28-29
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 6 Insert
-        platform_settings:
-          polarity: true
-    l_LSlingGI:
-      number: 1-30-31-32
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Left Sling GI
-        platform_settings:
-          polarity: true
-    l_LOutlane:
-      number: 1-33-34-35
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Left Outlane Insert
-        platform_settings:
-          polarity: true
-  #J10 LA4
-    l_CBallInsert:
-      number: 1-36-37-38
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Captive Ball Arrow Insert
-        platform_settings:
-          polarity: true
-    l_MRGI:
-      number: 1-39-40-41
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Mid Right GI
-        platform_settings:
-          polarity: true
-    l_CBallLowGI:
-      number: 1-42-43-44
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Captive Ball GI Low
-        platform_settings:
-          polarity: true
-    l_CBallHighGI:
-      number: 1-45-46-47
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Captive Ball GI High
-        platform_settings:
-          polarity: true
-  #J7 LA5
-    l_1Horse:
-      number: 1-48-49-50
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: 1 Horseshoe Insert
-        platform_settings:
-          polarity: true
-    l_B10:
-      number: 1-51-52-53
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 10 Insert
-        platform_settings:
-          polarity: true
-    l_B9:
-      number: 1-54-55-56
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 9 Insert
-        platform_settings:
-          polarity: true
-    l_B8:
-      number: 1-57-58-59
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Bonus Ladder 8 Insert
-        platform_settings:
-          polarity: true
-  #J11 LA6
-    l_LSaucerGI:
-      number: 1-60-61-62
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Left Saucer GI
-        platform_settings:
-          polarity: true
-    l_SpinnerArrow:
-      number: 1-63-64-65
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Spinner Arrow Insert
-        platform_settings:
-          polarity: true
-    l_LSaucerInsert:
-      number: 1-66-67-68
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Left Saucer Insert
-        platform_settings:
-          polarity: true
-    l_MLGI:
-      number: 1-69-70-71
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Mid Left GI
-        platform_settings:
-          polarity: true
-  #J8 LA7
-    l_3Horse:
-      number: 1-72-73-74
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: 3 Horseshoe Insert
-        platform_settings:
-          polarity: true
-    l_DoubleBonus:
-      number: 1-75-76-77
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Double Bonus Insert
-        platform_settings:
-          polarity: true
-    l_2Horse:
-      number: 1-78-79-80
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: 2 Horseshoe Insert
-        platform_settings:
-          polarity: true
-    l_PopGI:
-      number: 1-81-82-83
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Pop Bumper GI
-        platform_settings:
-          polarity: true
-
-#PD-LED-2
-  #J5 LB1
-    l_LD_LowInsert:
-      number: 2-0-1-2
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Left Drop Target Low Insert
-        platform_settings:
-          polarity: true
-    l_LD_HighInsert:
-      number: 2-3-4-5
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Left Drop Target High Insert
-        platform_settings:
-          polarity: true
-    l_RD_HighInsert:
-      number: 2-6-7-8
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Right Drop Target High Insert
-        platform_settings:
-          polarity: true
-    l_RD_LowInsert:
-      number: 2-9-10-11
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Right Drop Target Low Insert
-        platform_settings:
-          polarity: true
-  #J9 LB2
-    l_CBallGI:
-      number: 2-12-13-14
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Captive Ball Target GI
-        platform_settings:
-          polarity: true
-    l_RD_RGI:
-      number: 2-15-16-17
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Right Drop Target Right GI
-        platform_settings:
-          polarity: true
-    l_RD_LGI:
-      number: 2-18-19-20
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Right Drop Target Left GI
-        platform_settings:
-          polarity: true
-    l_RDA_GI:
-      number: 2-21-22-23
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Right Drop Target Area GI
-        platform_settings:
-          polarity: true
-  #J6 LB3
-    l_SpinnerGI:
-      number: 2-24-25-26
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Spinner GI
-        platform_settings:
-          polarity: true
-    l_LD_LGI:
-      number: 2-27-28-29
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Left Drop Target Left GI
-        platform_settings:
-          polarity: true
-    l_LDA_LGI:
-      number: 2-30-31-32
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Left Drop Target Area Left GI
-        platform_settings:
-          polarity: true
-    l_LDA_TGI:
-      number: 2-33-34-35
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Left Drop Target Area Top GI
-        platform_settings:
-          polarity: true
-  #J10 LB4
-    l_LInlaneGI:
-      number: 2-36-37-38
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Left Top Inlane GI
-        platform_settings:
-          polarity: true
-    l_LD_RGI:
-      number: 2-39-40-41
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Left Drop Target Right GI
-        platform_settings:
-          polarity: true
-    l_LDA_RGI:
-      number: 2-42-43-44
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Left Drop Target Area Right GI
-        platform_settings:
-          polarity: true
-    l_TS1:
-      number: 2-45-46-47
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Top Saucer 1 Insert
-        platform_settings:
-          polarity: true
-  #J7 LB5
-    l_TS2:
-      number: 2-48-49-50
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Top Saucer 2 Insert
-        platform_settings:
-          polarity: true
-    l_TS3:
-      number: 2-51-52-53
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Top Saucer 3 Insert
-        platform_settings:
-          polarity: true
-    l_TS4:
-      number: 2-54-55-56
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Top Saucer 4 Insert
-        platform_settings:
-          polarity: true
-    l_TS5:
-      number: 2-57-58-59
-        subtype: led
-        fade_ms: 40ms
-        tags:
-        label: Top Saucer 5 Insert
-        platform_settings:
-          polarity: true
-  #J11 LB6
-    l_RInlaneGi:
-      number: 2-60-61-62
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Right Top Inlane GI
-        platform_settings:
-          polarity: true
-    l_RDA_RGI:
-      number: 2-63-64-65
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Right Drop Target Area Right GI
-        platform_settings:
-          polarity: true
-    l_RightTopGI:
-      number: 2-66-67-68
-        subtype: led
-        fade_ms: 40ms
-        tags: gi
-        label: Right Top GI
-        platform_settings:
-          polarity: true
-#    l_: # UNUSED
-#      number: 2-69-70-71
-#        subtype: led
-#        fade_ms: 40ms
-#        tags:
-#        label:
-#        platform_settings:
-#          polarity: true
-
-#  #J8 LB7 # UNUSED
-#    l_:
-#      number: 2-72-73-74
-#        subtype: led
-#        fade_ms: 40ms
-#        tags:
-#        label:
-#        platform_settings:
-#          polarity: true
-#    l_:
-#      number: 2-75-76-77
-#        subtype: led
-#        fade_ms: 40ms
-#        tags:
-#        label:
-#        platform_settings:
-#          polarity: true
-#    l_:
-#      number: 2-78-79-80
-#        subtype: led
-#        fade_ms: 40ms
-#        tags:
-#        label:
-#        platform_settings:
-#          polarity: true
-#    l_:
-#      number: 2-81-82-83
-#        subtype: led
-#        fade_ms: 40ms
-#        tags:
-#        label:
-#        platform_settings:
-#          polarity: true
+  l_B3:
+    number: 1-0-1-2
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B2:
+    number: 1-3-4-5
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B1:
+    number: 1-6-7-8
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Shoot_Again:
+    number: 1-9-10-11
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B4:
+    number: 1-12-13-14
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B5:
+    number: 1-15-16-17
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_out:
+    number: 1-18-19-20
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_sling:
+    number: 1-21-22-23
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_out:
+    number: 1-24-25-26
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_sling:
+    number: 1-27-28-29
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B6:
+    number: 1-30-31-32
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B7:
+    number: 1-33-34-35
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_CBall_GI_High:
+    number: 1-36-37-38
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_CBall_GI_Low:
+    number: 1-39-40-41
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Mid_GI:
+    number: 1-42-43-44
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_CBall_Arrow:
+    number: 1-45-46-47
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Mid_GI:
+    number: 1-48-49-50
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Saucer_Insert:
+    number: 1-51-52-53
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Spinner_Arrow:
+    number: 1-54-55-56
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Saucer_GI:
+    number: 1-57-58-59
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B8:
+    number: 1-60-61-62
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B9:
+    number: 1-63-64-65
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_B10:
+    number: 1-66-67-68
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Horse1:
+    number: 1-69-70-71
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Pop:
+    number: 1-72-73-74
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Horse2:
+    number: 1-75-76-77
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Double_Bonus:
+    number: 1-78-79-80
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Horse3:
+    number: 1-81-82-83
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Drop_Low_In:
+    number: 2-0-1-2
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Drop_Top_In:
+    number: 2-3-4-5
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Drop_Top_In:
+    number: 2-6-7-8
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Drop_Low_In:
+    number: 2-9-10-11
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_CBall_GI:
+    number: 2-12-13-14
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Drop_R_GI:
+    number: 2-15-16-17
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Drop_L_GI:
+    number: 2-18-19-20
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Drop_GI:
+    number: 2-21-22-23
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Drop_GI_High:
+    number: 2-24-25-26
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Drop_GI_Low:
+    number: 2-27-28-29
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Drop_L_GI:
+    number: 2-30-31-32
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Spinner_GI:
+    number: 2-33-34-35
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Saucer1:
+    number: 2-36-37-38
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Rebound:
+    number: 2-39-40-41
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Drop_GI_R:
+    number: 2-42-43-44
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_L_Top_Inlane:
+    number: 2-45-46-47
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Saucer5:
+    number: 2-48-49-50
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Saucer4:
+    number: 2-51-52-53
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Saucer3:
+    number: 2-54-55-56
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_Saucer2:
+    number: 2-57-58-59
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Top_GI:
+    number: 2-63-64-65
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Rebound:
+    number: 2-66-67-68
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
+  l_R_Top_Inlane:
+    number: 2-69-70-71
+    subtype: led
+    fade_ms: 50ms
+    platform_settings:
+      polarity: true
