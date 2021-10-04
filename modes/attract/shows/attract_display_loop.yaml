@@ -51,3 +51,21 @@
         min_digits: 2
         font_size: 50
         y: 40%
+      - type: text
+        text: (machine|player2_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        y: 30%
+      - type: text
+        text: (machine|player3_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        y: 20%
+      - type: text
+        text: (machine|player4_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        y: 10%

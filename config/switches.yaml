@@ -35,6 +35,7 @@ switches:
 #    number: A0-B1-7
   s_plumb_bomb_tilt:
     number: A1-B0-0
+    tags: tilt_warning
   s_start:
     number: A1-B0-1
     tags: start

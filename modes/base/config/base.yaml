@@ -3,6 +3,7 @@ mode:
   start_events: ball_started
   priority: 100
 
+
 show_player:
   mode_base_started.1: general_illumination
   mode_base_started.2:
@@ -32,40 +33,114 @@ slide_player:
         anchor_y: bottom
         font_size: 50
 
+
+
 variable_player:
-  s_right_inlane_active:
+  sh_right_inlane_hit:
     score: 5000
-  s_right_slingshot_active:
+  sh_right_slingshot_hit:
     score: 100
-  s_right_outlane_active:
+  sh_right_outlane_hit:
     score: 1000
-    bonus: 10000
-  s_lower_right_rebound_active:
+    bonus_points: 1
+  sh_lower_right_rebound_hit:
     score: 10
-  s_captive_ball_target_active:
+  sh_captive_ball_target_hit:
     score: 10000
-  s_advance_bonus_standup_active:
+  sh_advance_bonus_standup_hit:
     score: 1000
-    bonus: 10000
-  s_upper_rebound_left_active:
+    bonus_points: 1
+  sh_upper_rebound_left_hit:
     score: 100
-  s_upper_rebound_right_active:
+  sh_upper_rebound_right_hit:
     score: 100
-  s_pop_bumper_active:
+  sh_pop_bumper_hit:
     score: 1000
-  s_left_inlane_active:
+  sh_left_inlane_hit:
     score: 5000
-  s_left_outlane_active:
+  sh_left_outlane_hit:
     score: 1000
-    bonus: 10000
-  s_left_slingshot_active:
+    bonus_points: 1
+  sh_left_slingshot_hit:
     score: 10
-  s_lower_rebound_left_active:
+  sh_lower_rebound_left_hit:
     score: 10
-  s_spinner_active:
+  sh_spinner_hit:
     score: 100
-  s_left_saucer_active:
+  sh_left_saucer_hit:
     score: 5000
-    bonus: 10000
-  s_left_middle_rebound_active:
+    bonus_points: 1
+  sh_left_middle_rebound_hit:
     score: 10
+  sh_top_saucer_hit:
+    bonus_points: 1
+
+shots:
+  sh_right_inlane:
+    switch: s_right_inlane
+  sh_right_slingshot:
+    switch: s_right_slingshot
+  sh_right_outlane:
+    switch: s_right_outlane
+  sh_lower_right_rebound:
+    switch: s_lower_right_rebound
+  sh_captive_ball_target:
+    switch: s_captive_ball_target
+  sh_advance_bonus_standup:
+    switch: s_advance_bonus_standup
+  sh_upper_rebound_left:
+    switch: s_upper_rebound_left
+  sh_upper_rebound_right:
+    switch: s_upper_rebound_right
+  sh_pop_bumper:
+    switch: s_pop_bumper
+    show_tokens:
+      led: l_Pop
+    profile: sh_pop_profile
+  sh_left_inlane:
+    switch: s_left_inlane
+  sh_left_outlane:
+    switch: s_left_outlane
+  sh_left_slingshot:
+    switch: s_left_slingshot
+  sh_lower_rebound_left:
+    switch: s_lower_rebound_left
+  sh_spinner:
+    switch: s_spinner
+    show_tokens:
+      led: l_Spinner_Arrow
+    profile: sh_spinner_profile
+  sh_left_saucer:
+    switch: s_left_saucer
+  sh_left_middle_rebound:
+    switch: s_left_middle_rebound
+  sh_top_saucer:
+    switch: s_top_saucer
+  sh_drop_complete:
+    enable_events: drop_target_bank_dropboth_down
+    profile: sh_drops_complete_profile
+    show_tokens:
+      led: l_L_Drop_Low_In
+
+shot_profiles:
+  sh_spinner_profile:
+    states:
+      - name: unlit
+        show: off
+      - name: lit
+        show: on
+    loop: true
+  sh_drops_complete_profile:
+    states:
+      - name: unlit
+        show: off
+      - name: lit
+        show: on
+    loop: true
+  sh_pop_profile:
+    states:
+      - name: lit
+        show: on
+      - name: unlit
+        show: off
+    loop: true

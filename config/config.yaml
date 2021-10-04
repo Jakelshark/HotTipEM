@@ -7,6 +7,8 @@ config:
 
 modes:
   - base
+  - bonus
+  - tilt
 
 
 displays:
