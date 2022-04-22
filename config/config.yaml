@@ -4,12 +4,13 @@ config:
   - switches.yaml
   - lamps.yaml
   - hardware.yaml
+  - audio_config.yaml
+
 
 modes:
   - base
   - bonus
   - tilt
-
 
 displays:
   window:

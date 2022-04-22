@@ -5,10 +5,78 @@ mode:
 
 
 show_player:
-  mode_base_started.1: general_illumination
+  mode_base_started.1:
+    stadium_rainbow_sweep2:
+      speed: 30
   mode_base_started.2:
-    police_saucer:
-      speed: 8
+    general_illumination:
+      speed: 1
+  sh_left_slingshot_hit:
+    AllLightsFlashToken:
+      speed: 5
+      priority: 25
+      loops: 0
+      show_tokens:
+        color: red
+  sh_top_saucer_hit:
+    AllLightsFlashToken:
+      speed: 1.5
+      priority: 24
+      loops: 0
+      show_tokens:
+        color: E041B1 #neon pink
+  sh_right_slingshot_hit:
+    AllLightsFlashToken:
+      speed: 5
+      priority: 25
+      loops: 0
+      show_tokens:
+        color: blue
+  sh_left_saucer_hit:
+    AllLightsFlashToken:
+      speed: 1.5
+      priority: 25
+      loops: 0
+      show_tokens:
+        color: 999900 #dark yellow
+  sh_pop_bumper_hit:
+    AllLightsFlashToken:
+      speed: 5
+      priority: 24
+      loops: 0
+      show_tokens:
+        color: green
+  sh_upper_rebound_left_hit:
+    upper_left_flash_token:
+      speed: 3
+      priority: 26
+      loops: 0
+      show_tokens:
+        color: red
+  sh_upper_rebound_right_hit:
+    upper_right_flash_token:
+      speed: 3
+      priority: 26
+      loops: 0
+      show_tokens:
+        color: blue
+  #mode_base_started.3:
+  #  police_bonus:
+  #    speed: 8
+  #    priority: 10
+
+
+sound_player:
+  mode_base_started:
+    song01:
+      action: stop
+    main:
+      action: play
+      loops: -1
+  mode_base_stopped:
+    main:
+      action: stop
+
 
 slide_player:
   mode_base_started:
@@ -26,13 +94,12 @@ slide_player:
         anchor_x: left
         anchor_y: bottom
       - type: text
-        text: BALL (ball)
+        text: BALL (ball)/3
         y: 10
         x: right-10
         anchor_x: right
         anchor_y: bottom
         font_size: 50
-
 
 
 variable_player:
@@ -94,9 +161,8 @@ shots:
     switch: s_upper_rebound_right
   sh_pop_bumper:
     switch: s_pop_bumper
-    show_tokens:
-      led: l_Pop
-    profile: sh_pop_profile
+  sh_left_top_rollover:
+    switch: s_left_top_rollover
   sh_left_inlane:
     switch: s_left_inlane
   sh_left_outlane:
@@ -116,11 +182,7 @@ shots:
     switch: s_left_middle_rebound
   sh_top_saucer:
     switch: s_top_saucer
-  sh_drop_complete:
-    enable_events: drop_target_bank_dropboth_down
-    profile: sh_drops_complete_profile
-    show_tokens:
-      led: l_L_Drop_Low_In
+
 
 shot_profiles:
   sh_spinner_profile:
@@ -137,10 +199,15 @@ shot_profiles:
       - name: lit
         show: on
     loop: true
-  sh_pop_profile:
-    states:
-      - name: lit
-        show: on
-      - name: unlit
-        show: off
-    loop: true
+
+#start test multiball
+multiballs:
+  3balls_multiball:
+    ball_count: 4
+    ball_count_type: total
+    shoot_again: 15s
+    start_events: logicblock_mb_counter_complete
+counters:
+  mb_counter:
+    count_events: sh_left_top_rollover_hit
+    count_complete_value: 4

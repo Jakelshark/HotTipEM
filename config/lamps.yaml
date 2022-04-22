@@ -6,6 +6,7 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B2:
@@ -13,6 +14,7 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B1:
@@ -20,12 +22,14 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Shoot_Again:
     number: 1-9-10-11
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B4:
@@ -33,6 +37,7 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B5:
@@ -40,30 +45,35 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_out:
     number: 1-18-19-20
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_sling:
     number: 1-21-22-23
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_out:
     number: 1-24-25-26
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_sling:
     number: 1-27-28-29
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B6:
@@ -71,6 +81,7 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B7:
@@ -78,54 +89,63 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_CBall_GI_High:
     number: 1-36-37-38
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_CBall_GI_Low:
     number: 1-39-40-41
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Mid_GI:
     number: 1-42-43-44
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_CBall_Arrow:
     number: 1-45-46-47
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Mid_GI:
     number: 1-48-49-50
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Saucer_Insert:
     number: 1-51-52-53
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Spinner_Arrow:
     number: 1-54-55-56
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Saucer_GI:
     number: 1-57-58-59
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B8:
@@ -133,6 +153,7 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B9:
@@ -140,6 +161,7 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_B10:
@@ -147,173 +169,610 @@ lights:
     subtype: led
     fade_ms: 50ms
     tags: bonus
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Horse1:
     number: 1-69-70-71
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Pop:
     number: 1-72-73-74
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Horse2:
     number: 1-75-76-77
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Double_Bonus:
     number: 1-78-79-80
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Horse3:
     number: 1-81-82-83
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Drop_Low_In:
     number: 2-0-1-2
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Drop_Top_In:
     number: 2-3-4-5
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Drop_Top_In:
     number: 2-6-7-8
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Drop_Low_In:
     number: 2-9-10-11
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_CBall_GI:
     number: 2-12-13-14
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Drop_R_GI:
     number: 2-15-16-17
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Drop_L_GI:
     number: 2-18-19-20
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Drop_GI:
     number: 2-21-22-23
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Drop_GI_High:
     number: 2-24-25-26
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Drop_GI_Low:
     number: 2-27-28-29
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Drop_L_GI:
     number: 2-30-31-32
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Spinner_GI:
     number: 2-33-34-35
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Saucer1:
     number: 2-36-37-38
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Rebound:
     number: 2-39-40-41
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Drop_GI_R:
     number: 2-42-43-44
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_L_Top_Inlane:
     number: 2-45-46-47
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Saucer5:
     number: 2-48-49-50
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Saucer4:
     number: 2-51-52-53
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Saucer3:
     number: 2-54-55-56
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_Saucer2:
     number: 2-57-58-59
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Top_GI:
     number: 2-63-64-65
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Rebound:
     number: 2-66-67-68
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
   l_R_Top_Inlane:
     number: 2-69-70-71
     subtype: led
     fade_ms: 50ms
+    platform: p3_roc
     platform_settings:
       polarity: true
+#########fade candy starts
+#right rail
+  l_s_r0:
+    number: 0
+    platform: fadecandy
+    type: grb
+  l_s_r1:
+    number: 1
+    platform: fadecandy
+    type: grb
+  l_s_r2:
+    number: 2
+    platform: fadecandy
+    type: grb
+  l_s_r3:
+    number: 3
+    platform: fadecandy
+    type: grb
+  l_s_r4:
+    number: 4
+    platform: fadecandy
+    type: grb
+  l_s_r5:
+    number: 5
+    platform: fadecandy
+    type: grb
+  l_s_r6:
+    number: 6
+    platform: fadecandy
+    type: grb
+  l_s_r7:
+    number: 7
+    platform: fadecandy
+    type: grb
+  l_s_r8:
+    number: 8
+    platform: fadecandy
+    type: grb
+  l_s_r9:
+    number: 9
+    platform: fadecandy
+    type: grb
+  l_s_r10:
+    number: 10
+    platform: fadecandy
+    type: grb
+  l_s_r11:
+    number: 11
+    platform: fadecandy
+    type: grb
+  l_s_r12:
+    number: 12
+    platform: fadecandy
+    type: grb
+  l_s_r13:
+    number: 13
+    platform: fadecandy
+    type: grb
+  l_s_r14:
+    number: 14
+    platform: fadecandy
+    type: grb
+  l_s_r15:
+    number: 15
+    platform: fadecandy
+    type: grb
+  l_s_r16:
+    number: 16
+    platform: fadecandy
+    type: grb
+  l_s_r17:
+    number: 17
+    platform: fadecandy
+    type: grb
+  l_s_r18:
+    number: 18
+    platform: fadecandy
+    type: grb
+  l_s_r19:
+    number: 19
+    platform: fadecandy
+    type: grb
+  l_s_r20:
+    number: 20
+    platform: fadecandy
+    type: grb
+  l_s_r21:
+    number: 21
+    platform: fadecandy
+    type: grb
+  l_s_r22:
+    number: 22
+    platform: fadecandy
+    type: grb
+  l_s_r23:
+    number: 23
+    platform: fadecandy
+    type: grb
+  l_s_r24:
+    number: 24
+    platform: fadecandy
+    type: grb
+  l_s_r25:
+    number: 25
+    platform: fadecandy
+    type: grb
+  l_s_r26:
+    number: 26
+    platform: fadecandy
+    type: grb
+  l_s_r27:
+    number: 27
+    platform: fadecandy
+    type: grb
+  l_s_r28:
+    number: 28
+    platform: fadecandy
+    type: grb
+  l_s_r29:
+    number: 29
+    platform: fadecandy
+    type: grb
+  l_s_r30:
+    number: 30
+    platform: fadecandy
+    type: grb
+  l_s_r31:
+    number: 31
+    platform: fadecandy
+    type: grb
+  l_s_r32:
+    number: 32
+    platform: fadecandy
+    type: grb
+  l_s_r33:
+    number: 33
+    platform: fadecandy
+    type: grb
+#left rail
+  l_s_l0:
+    number: 256
+    platform: fadecandy
+    type: grb
+  l_s_l1:
+    number: 257
+    platform: fadecandy
+    type: grb
+  l_s_l2:
+    number: 258
+    platform: fadecandy
+    type: grb
+  l_s_l3:
+    number: 259
+    platform: fadecandy
+    type: grb
+  l_s_l4:
+    number: 260
+    platform: fadecandy
+    type: grb
+  l_s_l5:
+    number: 261
+    platform: fadecandy
+    type: grb
+  l_s_l6:
+    number: 262
+    platform: fadecandy
+    type: grb
+  l_s_l7:
+    number: 263
+    platform: fadecandy
+    type: grb
+  l_s_l8:
+    number: 264
+    platform: fadecandy
+    type: grb
+  l_s_l9:
+    number: 265
+    platform: fadecandy
+    type: grb
+  l_s_l10:
+    number: 266
+    platform: fadecandy
+    type: grb
+  l_s_l11:
+    number: 267
+    platform: fadecandy
+    type: grb
+  l_s_l12:
+    number: 268
+    platform: fadecandy
+    type: grb
+  l_s_l13:
+    number: 269
+    platform: fadecandy
+    type: grb
+  l_s_l14:
+    number: 270
+    platform: fadecandy
+    type: grb
+  l_s_l15:
+    number: 271
+    platform: fadecandy
+    type: grb
+  l_s_l16:
+    number: 272
+    platform: fadecandy
+    type: grb
+  l_s_l17:
+    number: 273
+    platform: fadecandy
+    type: grb
+  l_s_l18:
+    number: 274
+    platform: fadecandy
+    type: grb
+  l_s_l19:
+    number: 275
+    platform: fadecandy
+    type: grb
+  l_s_l20:
+    number: 276
+    platform: fadecandy
+    type: grb
+  l_s_l21:
+    number: 277
+    platform: fadecandy
+    type: grb
+  l_s_l22:
+    number: 278
+    platform: fadecandy
+    type: grb
+  l_s_l23:
+    number: 279
+    platform: fadecandy
+    type: grb
+  l_s_l24:
+    number: 280
+    platform: fadecandy
+    type: grb
+  l_s_l25:
+    number: 281
+    platform: fadecandy
+    type: grb
+  l_s_l26:
+    number: 282
+    platform: fadecandy
+    type: grb
+  l_s_l27:
+    number: 283
+    platform: fadecandy
+    type: grb
+  l_s_l28:
+    number: 284
+    platform: fadecandy
+    type: grb
+  l_s_l29:
+    number: 285
+    platform: fadecandy
+    type: grb
+  l_s_l30:
+    number: 286
+    platform: fadecandy
+    type: grb
+  l_s_l31:
+    number: 287
+    platform: fadecandy
+    type: grb
+  l_s_l32:
+    number: 288
+    platform: fadecandy
+    type: grb
+  l_s_l33:
+    number: 289
+    platform: fadecandy
+    type: grb
+  l_s_l34:
+    number: 290
+    platform: fadecandy
+    type: grb
+  l_s_l35:
+    number: 291
+    platform: fadecandy
+    type: grb
+  l_s_l36:
+    number: 292
+    platform: fadecandy
+    type: grb
+# apron lights
+  l_s_a0:
+    number: 448
+    platform: fadecandy
+    type: grb
+  l_s_a1:
+    number: 449
+    platform: fadecandy
+    type: grb
+  l_s_a2:
+    number: 450
+    platform: fadecandy
+    type: grb
+  l_s_a3:
+    number: 451
+    platform: fadecandy
+    type: grb
+  l_s_a4:
+    number: 452
+    platform: fadecandy
+    type: grb
+  l_s_a5:
+    number: 453
+    platform: fadecandy
+    type: grb
+  l_s_a6:
+    number: 454
+    platform: fadecandy
+    type: grb
+  l_s_a7:
+    number: 455
+    platform: fadecandy
+    type: grb
+  l_s_a8:
+    number: 456
+    platform: fadecandy
+    type: grb
+  l_s_a9:
+    number: 457
+    platform: fadecandy
+    type: grb
+  l_s_a10:
+    number: 458
+    platform: fadecandy
+    type: grb
+  l_s_a11:
+    number: 459
+    platform: fadecandy
+    type: grb
+  l_s_a12:
+    number: 460
+    platform: fadecandy
+    type: grb
+  l_s_a13:
+    number: 461
+    platform: fadecandy
+    type: grb
+  l_s_a14:
+    number: 462
+    platform: fadecandy
+    type: grb
+  l_s_a15:
+    number: 463
+    platform: fadecandy
+    type: grb
+  l_s_a16:
+    number: 464
+    platform: fadecandy
+    type: grb
+  l_s_a17:
+    number: 465
+    platform: fadecandy
+    type: grb
+  l_s_a18:
+    number: 466
+    platform: fadecandy
+    type: grb
+  l_s_a19:
+    number: 467
+    platform: fadecandy
+    type: grb
+  l_s_a20:
+    number: 468
+    platform: fadecandy
+    type: grb
+  l_s_a21:
+    number: 469
+    platform: fadecandy
+    type: grb
+  l_s_a22:
+    number: 470
+    platform: fadecandy
+    type: grb
+  l_s_a23:
+    number: 471
+    platform: fadecandy
+    type: grb
+  l_s_a24:
+    number: 472
+    platform: fadecandy
+    type: grb
+  l_s_a25:
+    number: 473
+    platform: fadecandy
+    type: grb
+  l_s_a26:
+    number: 474
+    platform: fadecandy
+    type: grb
+  l_s_a27:
+    number: 475
+    platform: fadecandy
+    type: grb
+  l_s_a28:
+    number: 476
+    platform: fadecandy
+    type: grb
+  l_s_a29:
+    number: 477
+    platform: fadecandy
+    type: grb

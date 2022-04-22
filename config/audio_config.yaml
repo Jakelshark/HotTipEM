@@ -1,0 +1,37 @@
+#config_version=5
+
+sound_system:
+  buffer: 2048
+  channels: 2
+  enabled: true
+  frequency: 44100
+  tracks:
+    bgmusic:
+      type: standard
+      simultaneous_sounds: 1
+      volume: .85
+    voice:
+      type: standard
+      simultaneous_sounds: 1
+    sfx:
+      type: standard
+      simultaneous_sounds: 8
+
+assets:
+  sounds:
+    default:
+      load: on_demand
+    bgmusic:
+      track: bgmusic
+    sfx:
+      track: sfx
+    voice:
+      track: voice
+
+sounds:
+  song01:
+    file: song01.ogg
+    volume: 1
+  main:
+    file: main.ogg
+    volume: 1

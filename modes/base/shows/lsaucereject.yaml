@@ -1,0 +1,323 @@
+#show_version=5
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_s_l15: '09008D'
+    l_s_l16: '06005D'
+    
+- time: '+1'
+  lights:
+    l_s_l14: '01000A'
+    l_s_l15: '1200BA'
+    l_s_l16: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_l14: '1F00F4'
+    l_s_l15: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_l13: '2900FD'
+    l_s_l14: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_l12: '3100FB'
+    l_s_l13: '06001E'
+    
+- time: '+1'
+  lights:
+    l_s_l11: '0E003F'
+    l_s_l12: '3900FD'
+    l_s_l13: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_l11: '4100FD'
+    l_s_l12: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_l10: '4A00FD'
+    l_s_l11: '24007C'
+    
+- time: '+1'
+  lights:
+    l_s_l10: '5200FD'
+    l_s_l11: '000000'
+    l_s_l9: '5200FD'
+    
+- time: '+1'
+  lights:
+    l_s_l10: '000000'
+    l_s_l8: '4F00DF'
+    l_s_l9: '5A00FD'
+    
+- time: '+1'
+  lights:
+    l_s_l7: '020005'
+    l_s_l8: '6200FD'
+    l_s_l9: '1B0047'
+    
+- time: '+1'
+  lights:
+    l_s_l7: '6A00FD'
+    l_s_l8: '6A00FD'
+    l_s_l9: '000000'
+    
+- time: '+1'
+  lights:
+    l_L_sling: '7300FC'
+    l_s_l6: '7300FC'
+    l_s_l7: '7300FD'
+    l_s_l8: '000001'
+    
+- time: '+1'
+  lights:
+    l_L_sling: '7B00FD'
+    l_s_l5: '6300CC'
+    l_s_l6: '7B00FD'
+    l_s_l7: '7B00FD'
+    l_s_l8: '000000'
+    
+- time: '+1'
+  lights:
+    l_L_sling: '000000'
+    l_s_l5: '8300FD'
+    l_s_l6: '8300FD'
+    l_s_l7: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_l4: '8B00FD'
+    l_s_l5: '8B00FD'
+    l_s_l6: '000000'
+    
+- time: '+1'
+  lights:
+    l_R_sling: '9400FD'
+    l_s_l3: '9400FD'
+    l_s_l4: '9400FD'
+    l_s_l5: '9400FD'
+    
+- time: '+1'
+  lights:
+    l_R_sling: '000000'
+    l_s_l2: '8900DF'
+    l_s_l3: '9C00FD'
+    l_s_l4: '9C00FD'
+    l_s_l5: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_l2: 'A400FD'
+    l_s_l3: 'A400FD'
+    l_s_l4: '12001C'
+    
+- time: '+1'
+  lights:
+    l_s_l1: 'AC00FD'
+    l_s_l2: 'AC00FD'
+    l_s_l3: 'AC00FD'
+    l_s_l4: '000000'
+    l_s_r10: 'AC00FD'
+    l_s_r11: 'AC00FD'
+    l_s_r12: 'AC00FD'
+    l_s_r7: 'AC00FD'
+    l_s_r8: 'AC00FD'
+    l_s_r9: 'AC00FD'
+    
+- time: '+1'
+  lights:
+    l_s_l0: 'B400FD'
+    l_s_l1: 'B400FD'
+    l_s_l2: 'B400FD'
+    l_s_l3: '000000'
+    l_s_r10: '000000'
+    l_s_r11: '000000'
+    l_s_r12: '000000'
+    l_s_r4: 'B400FD'
+    l_s_r5: 'B400FD'
+    l_s_r6: 'B400FD'
+    l_s_r7: 'B400FD'
+    l_s_r8: 'B400FD'
+    l_s_r9: 'B000F8'
+    
+- time: '+1'
+  lights:
+    l_s_a0: 'BD00FD'
+    l_s_a1: 'BD00FD'
+    l_s_a2: 'BD00FD'
+    l_s_a3: 'BD00FD'
+    l_s_a4: 'BD00FD'
+    l_s_a5: 'BD00FD'
+    l_s_a6: '45005C'
+    l_s_l0: 'BD00FD'
+    l_s_l1: 'BD00FD'
+    l_s_l2: '290037'
+    l_s_r2: 'BD00FD'
+    l_s_r3: 'BD00FD'
+    l_s_r4: 'BD00FD'
+    l_s_r5: 'BD00FD'
+    l_s_r6: '0A000E'
+    l_s_r7: '000000'
+    l_s_r8: '000000'
+    l_s_r9: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_a0: 'C500FD'
+    l_s_a1: 'C500FD'
+    l_s_a10: '2A0036'
+    l_s_a18: 'C500FD'
+    l_s_a19: 'C500FD'
+    l_s_a2: 'C500FD'
+    l_s_a20: 'C500FD'
+    l_s_a21: 'C500FD'
+    l_s_a22: 'C500FD'
+    l_s_a23: 'C500FD'
+    l_s_a24: 'C500FD'
+    l_s_a25: 'C500FD'
+    l_s_a26: 'C500FD'
+    l_s_a27: 'C500FD'
+    l_s_a28: 'C500FD'
+    l_s_a29: 'C500FD'
+    l_s_a3: 'C500FD'
+    l_s_a4: 'C500FD'
+    l_s_a5: 'C500FD'
+    l_s_a6: 'C500FD'
+    l_s_a7: 'C500FD'
+    l_s_a8: 'C500FD'
+    l_s_a9: 'C500FD'
+    l_s_l0: 'C500FD'
+    l_s_l1: 'C500FD'
+    l_s_l2: '000000'
+    l_s_r0: 'C500FD'
+    l_s_r1: 'C500FD'
+    l_s_r2: 'C500FD'
+    l_s_r3: 'C500FD'
+    l_s_r4: '000000'
+    l_s_r5: '000000'
+    l_s_r6: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_a0: 'CD00FD'
+    l_s_a1: 'CD00FD'
+    l_s_a10: 'CD00FD'
+    l_s_a11: 'CD00FD'
+    l_s_a12: 'CD00FD'
+    l_s_a13: 'CD00FD'
+    l_s_a14: 'CD00FD'
+    l_s_a15: 'CD00FD'
+    l_s_a16: 'CD00FD'
+    l_s_a17: 'CD00FD'
+    l_s_a18: 'CD00FD'
+    l_s_a19: 'CD00FD'
+    l_s_a2: 'CD00FD'
+    l_s_a20: 'CD00FD'
+    l_s_a21: 'CD00FD'
+    l_s_a22: 'CD00FD'
+    l_s_a23: 'CD00FD'
+    l_s_a24: '9D00C2'
+    l_s_a25: 'AB00D3'
+    l_s_a26: 'A300C9'
+    l_s_a27: 'CD00FD'
+    l_s_a28: 'BD00E9'
+    l_s_a29: 'AC00D4'
+    l_s_a3: 'CD00FD'
+    l_s_a4: 'CD00FD'
+    l_s_a5: 'CD00FD'
+    l_s_a6: 'CD00FD'
+    l_s_a7: 'CD00FD'
+    l_s_a8: 'CD00FD'
+    l_s_a9: 'CD00FD'
+    l_s_l0: 'CD00FD'
+    l_s_l1: '000000'
+    l_s_r0: 'CD00FD'
+    l_s_r1: '73008D'
+    l_s_r2: '000000'
+    l_s_r3: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_a0: 'D500FD'
+    l_s_a1: '460054'
+    l_s_a10: 'D500FD'
+    l_s_a11: 'D500FD'
+    l_s_a12: 'D500FD'
+    l_s_a13: 'D500FD'
+    l_s_a14: 'D500FD'
+    l_s_a15: 'D500FD'
+    l_s_a16: 'D500FD'
+    l_s_a17: 'D500FD'
+    l_s_a18: '8700A0'
+    l_s_a19: '5A006B'
+    l_s_a2: '010001'
+    l_s_a20: '000000'
+    l_s_a21: '000000'
+    l_s_a22: '000000'
+    l_s_a23: '000000'
+    l_s_a24: '000000'
+    l_s_a25: '000000'
+    l_s_a26: '000000'
+    l_s_a27: '000000'
+    l_s_a28: '000000'
+    l_s_a29: '000000'
+    l_s_a3: '000000'
+    l_s_a4: '000000'
+    l_s_a5: '130016'
+    l_s_a6: '9200AD'
+    l_s_a7: 'D500FD'
+    l_s_a8: 'D500FD'
+    l_s_a9: 'D500FD'
+    l_s_l0: 'D500FD'
+    l_s_r0: '000000'
+    l_s_r1: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_a0: '000000'
+    l_s_a1: '000000'
+    l_s_a10: '000000'
+    l_s_a11: '000000'
+    l_s_a12: 'DE00FD'
+    l_s_a13: 'DE00FD'
+    l_s_a14: 'B200CB'
+    l_s_a15: 'A500BC'
+    l_s_a16: '000000'
+    l_s_a17: '000000'
+    l_s_a18: '000000'
+    l_s_a19: '000000'
+    l_s_a2: '000000'
+    l_s_a5: '000000'
+    l_s_a6: '000000'
+    l_s_a7: '000000'
+    l_s_a8: '000000'
+    l_s_a9: '000000'
+    l_s_l0: '000000'
+    
+- time: '+1'
+  lights:
+    l_s_a12: '000000'
+    l_s_a13: '000000'
+    l_s_a14: '000000'
+    l_s_a15: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    

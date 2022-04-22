@@ -1,27 +1,35 @@
 #config_version=5
 
 hardware:
-  platform: p3_roc
+  platform: p3_roc, fadecandy
   driverboards: pdb
 
 playfields:
   playfield:
    tags: default
-   default_source_device: bd_trough
+   default_source_device: bd_plunger
 
 ball_devices:
   bd_trough:
-    ball_switches: s_outhole
+    ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough7, s_trough_jam
     eject_coil: c_trough
     tags: trough, home, drain
+    jam_switch: s_trough_jam
+    eject_coil_jam_pulse: 15ms
+    eject_targets: bd_plunger
+  bd_plunger:
+    ball_switches: s_shooter_lane
+    mechanical_eject: true
+    eject_coil: c_auto_launch
+    eject_timeouts: 1.2s
   bd_left_saucer:
     ball_switches: s_left_saucer
     eject_coil: c_left_saucer
-    eject_timeouts: 500ms
+    eject_timeouts: 750ms
   bd_top_saucer:
     ball_switches: s_top_saucer
     eject_coil: c_top_saucer
-    eject_timeouts: 800ms
+    eject_timeouts: 1000ms
 
 autofire_coils:
   afc_left_slingshot:
@@ -33,6 +41,12 @@ autofire_coils:
   afc_pop_bumper:
     coil: c_pop
     switch: s_pop_bumper
+  afc_latch_up:
+    coil: c_latch_up
+    switch: s_captive_ball_rollover
+  afc_latch_down:
+    coil: c_latch_down
+    switch: s_captive_ball_target
 
 drop_targets:
   drop_left_left:
@@ -60,6 +74,7 @@ drop_target_banks:
     drop_targets: drop_left_left, drop_left_center, drop_left_right, drop_right_left, drop_right_center, drop_right_right
     reset_coils: c_drop_left, c_drop_right
     reset_on_complete: 500ms
+    reset_events: sh_left_top_rollover_hit
 
 #split drop target banks
 #drop_target_banks:
@@ -78,41 +93,53 @@ coils:
     default_pulse_ms: 20
   c_left_saucer:
     number: A0-B0-3
-    default_pulse_ms: 15
+    default_pulse_ms: 8
   c_top_saucer:
     number: A0-B0-5
-    default_pulse_ms: 12
+    default_pulse_ms: 5
   c_left_slingshot:
     number: A0-B0-2
-    default_pulse_ms: 15
+    default_pulse_ms: 5
   c_right_slingshot:
     number: A0-B1-4
-    default_pulse_ms: 15
+    default_pulse_ms: 5
   c_pop:
     number: A0-B1-5
-    default_pulse_ms: 18
+    default_pulse_ms: 8
   c_drop_left:
     number: A0-B0-4
-    default_pulse_ms: 53
+    default_pulse_ms: 20
   c_drop_right:
     number: A0-B1-6
-    default_pulse_ms: 38
-  c_flipper_left:
+    default_pulse_ms: 20
+  c_flipper_left_hold:
     number: A0-B0-1
     allow_enable: true
-    default_pulse_ms: 1
-  c_flipper_right:
+  c_flipper_right_hold:
     number: A0-B1-2
     allow_enable: true
-    default_pulse_ms: 1
+  c_latch_up:
+    number: A0-B0-6
+    default_pulse_ms: 30
+  c_latch_down:
+    number: A0-B0-7
+    default_pulse_ms: 10
+  c_auto_launch:
+    number: A0-B0-0
+    default_pulse_ms: 18
+  c_flipper_left:
+    number: A0-B1-1
+    default_pulse_ms: 18
+  c_flipper_right:
+    number: A0-B1-0
+    default_pulse_ms: 20
 
 flippers:
   left_flipper:
     main_coil: c_flipper_left
+    hold_coil: c_flipper_left_hold
     activation_switch: s_left_flipper
   right_flipper:
     main_coil: c_flipper_right
+    hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
-
-virtual_platform_start_active_switches: #ball starts in outhole when loading virtual instance of game
-  s_outhole

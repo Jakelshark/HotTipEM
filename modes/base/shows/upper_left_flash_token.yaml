@@ -1,0 +1,9 @@
+#show_version=5
+- time: 0
+  lights:
+    l_L_Drop_GI_High: (color)
+    l_L_Drop_GI_Low: (color)
+    l_L_Drop_L_GI: (color)
+    l_L_Rebound: (color)
+    l_L_Drop_GI_R: (color)
+    l_L_Top_Inlane: (color)
