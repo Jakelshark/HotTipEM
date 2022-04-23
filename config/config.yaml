@@ -13,6 +13,33 @@ modes:
   - tilt
 
 displays:
-  window:
-    width: 800
-    height: 600
+  lcd:
+    width: 1366
+    height: 768
+    default: true
+
+window:
+  width: 1366
+  height: 768
+  title: Hot Tip 2000
+  resizable: false
+  fullscreen: false
+  borderless: false
+  exit_on_escape: true
+  source_display: lcd
+
+player_vars:
+  VarPopCount:
+     initial_value: 0
+  VarDropCount:
+     initial_value: 0
+  VarSpinCount:
+     initial_value: 0
+  VarBonusCount:
+     initial_value: 0
+  VarBonusXCount:
+     initial_value: 1
+  VarMultiBallCount:
+     initial_value: 0
+  VarTopSaucerCount:
+     initial_value: 0

@@ -9,13 +9,15 @@ sound_system:
     bgmusic:
       type: standard
       simultaneous_sounds: 1
-      volume: .85
+      volume: .7
     voice:
       type: standard
-      simultaneous_sounds: 1
+      simultaneous_sounds: 8
+      volume: .9
     sfx:
       type: standard
-      simultaneous_sounds: 8
+      simultaneous_sounds: 16
+      volume: .8
 
 assets:
   sounds:
@@ -29,6 +31,7 @@ assets:
       track: voice
 
 sounds:
+  #background music
   song01:
     file: song01.ogg
     volume: 1

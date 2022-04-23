@@ -21,7 +21,7 @@ ball_devices:
     ball_switches: s_shooter_lane
     mechanical_eject: true
     eject_coil: c_auto_launch
-    eject_timeouts: 1.2s
+    eject_timeouts: 1.1s
   bd_left_saucer:
     ball_switches: s_left_saucer
     eject_coil: c_left_saucer
@@ -35,9 +35,15 @@ autofire_coils:
   afc_left_slingshot:
     coil: c_left_slingshot
     switch: s_left_slingshot
+    timeout_watch_time: 0.5s
+    timeout_max_hits: 1
+    timeout_disable_time: 200ms
   afc_right_slingshot:
     coil: c_right_slingshot
     switch: s_right_slingshot
+    timeout_watch_time: 0.5s
+    timeout_max_hits: 1
+    timeout_disable_time: 200ms
   afc_pop_bumper:
     coil: c_pop
     switch: s_pop_bumper
@@ -73,7 +79,8 @@ drop_target_banks:
   drop_both:
     drop_targets: drop_left_left, drop_left_center, drop_left_right, drop_right_left, drop_right_center, drop_right_right
     reset_coils: c_drop_left, c_drop_right
-    reset_on_complete: 500ms
+    #reset_on_complete: 500ms
+    ignore_switch_ms: 200ms
     reset_events: sh_left_top_rollover_hit
 
 #split drop target banks
