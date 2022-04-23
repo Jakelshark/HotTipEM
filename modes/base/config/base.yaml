@@ -140,6 +140,7 @@ variable_player:
   sh_left_middle_rebound_hit:
     score: 10
   sh_top_saucer_hit:
+    score: 5000
     bonus_points: 1
 
 shots:
