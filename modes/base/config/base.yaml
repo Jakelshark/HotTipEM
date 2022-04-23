@@ -3,7 +3,6 @@ mode:
   start_events: ball_started
   priority: 100
 
-
 show_player:
   mode_base_started.1:
     stadium_rainbow_sweep2:
@@ -60,11 +59,17 @@ show_player:
       loops: 0
       show_tokens:
         color: blue
+  sh_left_middle_rebound_hit:
+    MidLeftFlashToken:
+      speed: 5
+      priority: 26
+      loops: 0
+      show_tokens:
+        color: 000000
   #mode_base_started.3:
   #  police_bonus:
   #    speed: 8
   #    priority: 10
-
 
 sound_player:
   mode_base_started:
@@ -76,7 +81,6 @@ sound_player:
   mode_base_stopped:
     main:
       action: stop
-
 
 slide_player:
   mode_base_started:
@@ -100,7 +104,6 @@ slide_player:
         anchor_x: right
         anchor_y: bottom
         font_size: 50
-
 
 variable_player:
   sh_right_inlane_hit:
@@ -184,7 +187,6 @@ shots:
   sh_top_saucer:
     switch: s_top_saucer
 
-
 shot_profiles:
   sh_spinner_profile:
     states:
@@ -201,6 +203,17 @@ shot_profiles:
         show: on
     loop: true
 
+ball_saves:
+ default:
+   active_time: 8s
+   hurry_up_time: 3s
+   grace_period: 2s
+   early_ball_save_events: s_right_outlane_active_delay, s_left_outlane_active_delay
+   enable_events: mode_base_started
+   timer_start_events: playfield_active
+   auto_launch: true
+   balls_to_save: 1
+
 #start test multiball
 multiballs:
   3balls_multiball:
@@ -212,3 +225,4 @@ counters:
   mb_counter:
     count_events: sh_left_top_rollover_hit
     count_complete_value: 4
+#end test multiball

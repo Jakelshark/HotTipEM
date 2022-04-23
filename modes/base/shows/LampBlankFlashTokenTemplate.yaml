@@ -1,0 +1,82 @@
+#show_version=5
+- time: 0
+  lights:
+    #
+    #inserts
+    #
+    l_Shoot_Again: (color)
+    #outlanes
+    l_R_out: (color)
+    l_L_out: (color)
+    #bonus ladder
+    l_B10: (color) #red lense
+    l_B9: (color)
+    l_B8: (color)
+    l_B7: (color)
+    l_B6: (color)
+    l_B5: (color)
+    l_B4: (color)
+    l_B3: (color)
+    l_B2: (color)
+    l_B1: (color)
+    #bonus top
+    l_Horse1: (color)
+    l_Horse2: (color)
+    l_Horse3: (color)
+    l_Double_Bonus: (color)
+    #saucer
+    l_Saucer5: (color)
+    l_Saucer4: (color)
+    l_Saucer3: (color)
+    l_Saucer2: (color)
+    l_Saucer1: (color)
+
+    #captive ball
+    l_CBall_GI_High: (color) #right of captive ball rollover
+    l_CBall_GI_Low: (color) #right of ball latch
+    l_CBall_Arrow: (color) #insert
+    l_CBall_GI: (color) #right of standup
+    #l_R_Drop_R_GI: (color) #left of standup
+
+    #drops right
+    l_R_Drop_Low_In: (color)
+    l_R_Drop_Top_In: (color)
+    l_R_Drop_R_GI: (color)
+    l_R_Drop_L_GI: (color)
+    l_R_Drop_GI: (color)
+
+    #drops left
+    l_L_Drop_Top_In: (color)
+    l_L_Drop_Low_In: (color)
+    l_L_Drop_GI_High: (color)
+    l_L_Drop_GI_Low: (color)
+    #l_L_Drop_GI_R: (color)
+    #l_L_Drop_L_GI: (color)
+    #l_R_Top_GI: (color)
+
+    #left saucer
+    l_L_Saucer_Insert: (color)
+    l_L_Saucer_GI: (color)
+
+    #spinner
+    l_Spinner_Arrow: (color)
+    l_Spinner_GI: (color)
+
+    #
+    #gi
+    #
+    #slings
+    l_R_sling: (color)
+    l_L_sling: (color)
+
+    l_R_Mid_GI: (color)
+    l_L_Mid_GI: (color)
+
+    l_Pop: (color)
+
+    l_L_Rebound: (color)
+    l_L_Top_Inlane: (color)
+
+    l_R_Top_GI: (color)
+    l_R_Rebound: (color)
+    l_R_Top_Inlane: (color)
